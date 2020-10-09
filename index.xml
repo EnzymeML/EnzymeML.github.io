@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on EnzymeML Project</title>
+    <link>http://EnzymeML.org/</link>
+    <description>Recent content in Home on EnzymeML Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Oct 2020 17:01:34 +0700</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juergen Pleiss</title>
+      <link>http://EnzymeML.org/team/juergen-pleiss/</link>
+      <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/juergen-pleiss/</guid>
+      <description>Bioinformatics Group Leader at the Institute of Biochemistry and Technical Biochemistry in the University of Stuttgart.</description>
+    </item>
+    
+    <item>
+      <title>EnzymeML 1.0.0 released</title>
+      <link>http://EnzymeML.org/news/enzymeml_1-0-0/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/news/enzymeml_1-0-0/</guid>
+      <description>The specifications for Release 1.0.0 of EnzymeML is now available from the Downloads page.
+Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
+ Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis  Postquam tamen Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet!</description>
+    </item>
+    
+    <item>
+      <title>JEnzyme</title>
+      <link>http://EnzymeML.org/downloads/jenzyme/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/downloads/jenzyme/</guid>
+      <description>JEnzyme is a free, open-source, pure-Java library for working with EnzymeML. It helps to read and write EnzymeML documents.
+STRENDA Guidelines The STRENDA Guidelines are available on&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Specifications</title>
+      <link>http://EnzymeML.org/documents/specifications/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/specifications/</guid>
+      <description>The EnzymeML specifications define the syntax and semantics of EnzymeML. These documents are the definitive references for EnzymeML.
+STRENDA Guidelines The STRENDA Guidelines are available on&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Neil Swainston</title>
+      <link>http://EnzymeML.org/team/neil-swainston/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/neil-swainston/</guid>
+      <description>Senior Research Associate at the Institute of Integrative Biology in the University of Liverpool, UK.</description>
+    </item>
+    
+    <item>
+      <title>For experimentalists</title>
+      <link>http://EnzymeML.org/services/experimentalists/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/services/experimentalists/</guid>
+      <description>How can EnzymeML help you to manage your experimental data?
+Read about use a case study in biocatalysis and enzymology.
+Editing of EnzymeML: simulation of time course data from kinetic parameters We artificially created a time course data using entry KJWIQY from the STRENDA DB. The time course was simulated at different initial concentrations in the range of 25.0 to 500.0 μM as noted in the STRENDA DB entry. It should be noted that each different concentration was created as a duplicate species entry with varying initial concentration and identified by a suffix in the name (e.</description>
+    </item>
+    
+    <item>
+      <title>PyEnzyme</title>
+      <link>http://EnzymeML.org/downloads/pyenzyme/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/downloads/pyenzyme/</guid>
+      <description>JEnzyme is a free, open-source, Python library for working with EnzymeML. It helps to read and write EnzymeML documents.
+Original Peer Review Papers  Paper 1 Paper 2  </description>
+    </item>
+    
+    <item>
+      <title>Use cases</title>
+      <link>http://EnzymeML.org/documents/cases/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/cases/</guid>
+      <description>Here you will find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers
+Original Peer Review Papers  Paper 1 Paper 2  </description>
+    </item>
+    
+    <item>
+      <title>Frank T. Bergmann</title>
+      <link>http://EnzymeML.org/team/frank-bergmann/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:23 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/frank-bergmann/</guid>
+      <description>Postdoctoral researcher at the Modeling of Biological Processes Group in Centre for Organismal Studies at the Heidelberg University, Germany.</description>
+    </item>
+    
+    <item>
+      <title>For modelers</title>
+      <link>http://EnzymeML.org/services/modelers/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/services/modelers/</guid>
+      <description>Looking for software and databases that read and write EnzymeML?
+Here we present you one example to inspire your team.
+Kinetic modeling of EnzymeML data with COPASI You can analyze and model time course enzyme kinetic data stored in EnzymeML with the biochemical systems simulator COPASI. The integration can be done using the PyEnzyme library and a COPASI-specific thin API layer (TL_COPASI). Once you are in COPASI, you can employ different kinetic laws to estimate kinetic parameters and test reaction mechanisms, and plot your results.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://EnzymeML.org/documents/publications/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/publications/</guid>
+      <description>This section lists published papers and chapters describing EnzymeML and core EnzymeML-supporting software tools.
+Original Peer Review Papers  Paper 1 Paper 2  </description>
+    </item>
+    
+    <item>
+      <title>Specific APIs</title>
+      <link>http://EnzymeML.org/downloads/api/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/downloads/api/</guid>
+      <description>A free, open-source API library for working with EnzymeML content. It presently supports COPASI, SABIO-RK and STRENDA DB.
+Original Peer Review Papers  Paper 1 Paper 2  </description>
+    </item>
+    
+    <item>
+      <title>Santiago Schnell</title>
+      <link>http://EnzymeML.org/team/santiago-schnell/</link>
+      <pubDate>Thu, 08 Oct 2020 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/santiago-schnell/</guid>
+      <description>Interim Chair of Department of Molecular &amp;amp; Integrative Physiology at the University of Michigan Medical School, USA.</description>
+    </item>
+    
+    <item>
+      <title>For Software Developers</title>
+      <link>http://EnzymeML.org/services/software/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/services/software/</guid>
+      <description>Want to implement EnzymeML read and write functionalities in your software or database?
+Here we present you one example to inspire your team.
+Uploading EnzymeML documents to SABIO-RK SABIO-RK is a curated database that contains information about biochemical reactions, their kinetic rate equations with parameters, and experimental conditions. YOu can use an EnzymeML parsers, JEnzyme or PyEnzyme, to read in EnzymeML documents and to create a new SABIO-RK entry. Once the entry is created, SABIO-RK curators check the created entry before it is posted to the public SABIO-RK database.</description>
+    </item>
+    
+    <item>
+      <title>Software and Databases Guide</title>
+      <link>http://EnzymeML.org/documents/guide/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/guide/</guid>
+      <description>The EnzymeML Software and Database Guide provides a summary of all EnzymeMLBML-compatible software systems and databases currently available.
+Original Peer Review Papers  Paper 1 Paper 2  </description>
+    </item>
+    
+    <item>
+      <title>Validators</title>
+      <link>http://EnzymeML.org/downloads/validators/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/downloads/validators/</guid>
+      <description>A portable, low-level, tools for annocating and validating EnzymeML files.</description>
+    </item>
+    
+    <item>
+      <title>Carsten Kettner</title>
+      <link>http://EnzymeML.org/team/carsten-kettner/</link>
+      <pubDate>Thu, 20 Dec 2018 13:45:06 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/carsten-kettner/</guid>
+      <description>STRENDA Commission Coordinator at the Beilstein-Institut, Frankfurt am Main, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Ulrike Wittig</title>
+      <link>http://EnzymeML.org/team/ulrike-wittig/</link>
+      <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/ulrike-wittig/</guid>
+      <description>Research Associate at the Scientific Databases and Visualization Group at the Heidelberg Institute for Theoretical Studies, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Jan Range</title>
+      <link>http://EnzymeML.org/team/jan-range/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/jan-range/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andreas Weidemann</title>
+      <link>http://EnzymeML.org/team/andreas-weidemann/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/andreas-weidemann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://EnzymeML.org/contact/</link>
+      <pubDate>Thu, 08 Oct 2020 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/contact/</guid>
+      <description>EnzymeML Project Contacts The primary project contact is Jürgen Pleiss. You can also send your questions to Neil Swainston, or Santiago Schnell, who are also contact project coordinators.
+STRENDA Guidelines If you are interested to learn more about the STRENDA Guidelines, please contact Carsten Kettner.
+Website Santiago Schnell is the primary contact for the website updates. This website was developed by modying the Hugo Serif theme by zerostatic.</description>
+    </item>
+    
+  </channel>
+</rss>

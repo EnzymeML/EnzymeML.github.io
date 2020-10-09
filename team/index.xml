@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team on EnzymeML Project</title>
+    <link>http://EnzymeML.org/team/</link>
+    <description>Recent content in Team on EnzymeML Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Oct 2020 10:47:58 +1000</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juergen Pleiss</title>
+      <link>http://EnzymeML.org/team/juergen-pleiss/</link>
+      <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/juergen-pleiss/</guid>
+      <description>Bioinformatics Group Leader at the Institute of Biochemistry and Technical Biochemistry in the University of Stuttgart.</description>
+    </item>
+    
+    <item>
+      <title>Neil Swainston</title>
+      <link>http://EnzymeML.org/team/neil-swainston/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/neil-swainston/</guid>
+      <description>Senior Research Associate at the Institute of Integrative Biology in the University of Liverpool, UK.</description>
+    </item>
+    
+    <item>
+      <title>Frank T. Bergmann</title>
+      <link>http://EnzymeML.org/team/frank-bergmann/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:23 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/frank-bergmann/</guid>
+      <description>Postdoctoral researcher at the Modeling of Biological Processes Group in Centre for Organismal Studies at the Heidelberg University, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Santiago Schnell</title>
+      <link>http://EnzymeML.org/team/santiago-schnell/</link>
+      <pubDate>Thu, 08 Oct 2020 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/santiago-schnell/</guid>
+      <description>Interim Chair of Department of Molecular &amp;amp; Integrative Physiology at the University of Michigan Medical School, USA.</description>
+    </item>
+    
+    <item>
+      <title>Carsten Kettner</title>
+      <link>http://EnzymeML.org/team/carsten-kettner/</link>
+      <pubDate>Thu, 20 Dec 2018 13:45:06 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/carsten-kettner/</guid>
+      <description>STRENDA Commission Coordinator at the Beilstein-Institut, Frankfurt am Main, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Ulrike Wittig</title>
+      <link>http://EnzymeML.org/team/ulrike-wittig/</link>
+      <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/ulrike-wittig/</guid>
+      <description>Research Associate at the Scientific Databases and Visualization Group at the Heidelberg Institute for Theoretical Studies, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Jan Range</title>
+      <link>http://EnzymeML.org/team/jan-range/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/jan-range/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andreas Weidemann</title>
+      <link>http://EnzymeML.org/team/andreas-weidemann/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/team/andreas-weidemann/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

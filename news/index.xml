@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on EnzymeML Project</title>
+    <link>http://EnzymeML.org/news/</link>
+    <description>Recent content in News on EnzymeML Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 12:33:46 +1000</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EnzymeML 1.0.0 released</title>
+      <link>http://EnzymeML.org/news/enzymeml_1-0-0/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/news/enzymeml_1-0-0/</guid>
+      <description>The specifications for Release 1.0.0 of EnzymeML is now available from the Downloads page.
+Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
+ Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis  Postquam tamen Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet!</description>
+    </item>
+    
+  </channel>
+</rss>
