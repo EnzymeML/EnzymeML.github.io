@@ -18,8 +18,8 @@
       
       <guid>http://EnzymeML.org/services/experimentalists/</guid>
       <description>How can EnzymeML help you to manage your experimental data?
-Read about use a case study in biocatalysis and enzymology.
-Editing of EnzymeML: simulation of time course data from kinetic parameters We artificially created a time course data using entry KJWIQY from the STRENDA DB. The time course was simulated at different initial concentrations in the range of 25.0 to 500.0 μM as noted in the STRENDA DB entry. It should be noted that each different concentration was created as a duplicate species entry with varying initial concentration and identified by a suffix in the name (e.</description>
+Managing experimental data with EnzymeML   Measured time course data on substrate and/or product concentrations is saved in the same document with metadata about the enzyme and the reaction conditions. This faciliates replicability and reproducibility of experimental assays.
+  EnzymeML documents are standardized, so their format is independent of the experimental scientist. Documents are machine- and human-readable. Markup languanges (ML) are specifically designed for machines, and therefore they are not optimally for user reading.</description>
     </item>
     
     <item>

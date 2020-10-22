@@ -134,18 +134,55 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For experimentalists</h1>
-        <div class="content"><p>How can EnzymeML help you to manage your experimental data?</p>
-<p>Read about use a case study in biocatalysis and enzymology.</p>
-<h2 id="editing-of-enzymeml-simulation-of-time-course-data-from-kinetic-parameters">Editing of EnzymeML: simulation of time course data from kinetic parameters</h2>
-<p>We artificially created a time course data using entry <a href="http://doi.org/10.22011/strenda_db.KJWIQY">KJWIQY</a> from the 
-<a href="https://www.beilstein-strenda-db.org/strenda/">STRENDA DB</a>.  The time course was simulated at different initial 
-concentrations in the range of 25.0 to 500.0 μM as noted in the STRENDA DB entry. It should be noted that each 
-different concentration was created as a duplicate species entry with varying initial concentration and identified 
-by a suffix in the name (e.g. ‘L-Tryptophan_25 μM’). The simulations were carried out with the Michaelis-Menten 
-model equation using reported catalytic constant 13.2 (+/-) 0.7 s⁻¹ and Michaelis constant 40.0  μM over an 
-interval of 200 seconds. The time course data was added to the reaction object by deploying the data to the respective 
-reactant tuple, which is found in the list of substrates. Finally, the EnzymeML document was exported via the writer 
-function.</p>
+        <div class="content"><p>How can <strong>EnzymeML</strong> help you to manage your experimental data?</p>
+<h2 id="managing-experimental-data-with-enzymeml">Managing experimental data with EnzymeML</h2>
+<ol>
+<li>
+<p>Measured time course data on substrate and/or product concentrations is saved in the same document with 
+metadata about the enzyme and the reaction conditions. This faciliates replicability and reproducibility of
+experimental assays.</p>
+</li>
+<li>
+<p><strong>EnzymeML</strong> documents are standardized, so their format is independent of the experimental scientist. Documents
+are machine- and human-readable. Markup languanges (ML) are specifically designed for machines, and therefore 
+they are not optimally for user reading.  <strong>EnzymeML</strong> follows internationally recognized standards 
+(<a href="http://sbml.org/">SBML</a>, <a href="https://www.w3.org/Math/">MathML</a>). An application programming interface (API) 
+allows for the easy integration of applications for data visualization and modeling.</p>
+</li>
+<li>
+<p>Modelling data (kinetic rate law, kinetic parameters) can be added into the same <strong>EnzymeML</strong> document. 
+Multiple models can be applied to the same dataset.</p>
+</li>
+<li>
+<p><strong>EnzymeML</strong> documents can be considered as a micropublication, because it contains data and metadata. By
+assigning a digital object identifier (<a href="https://www.doi.org/">DOI</a>) to <strong>EnzymeML</strong> documents, they can be 
+easily referenced.</p>
+</li>
+</ol>
+<p>Currently, we provide a tool to convert spreadsheets into <strong>EnzymeML</strong> documents. We are developing 
+a simple graphical user interface, the <a href="https://www.biocatnet.de/">BioCatHub</a> platform, to collect 
+experimental data and to generate <strong>EnzymeML</strong> documents.</p>
+<h2 id="future-developments">Future Developments</h2>
+<ol>
+<li>Applications which read and write <strong>EnzymeML</strong></li>
+</ol>
+<p>In order to make full use of a data exchange format, applications are required to use it. We 
+are presently collaborating with software developers to provide <strong>EnzymeML</strong> read and write functionalities 
+to the modelling platforms <a href="http://copasi.org/">COPASI</a> and <a href="http://pysces.sourceforge.net/">PySCeS</a>. We 
+are also developing the <a href="https://www.biocatnet.de/">BioCatHub</a> platform as simple tool for experimentalists 
+to collect experimental data and metadata using a graphical user interface, and then to generate <strong>EnzymeML</strong> 
+documents. Additionally, we are working with the databases <a href="https://www.beilstein-strenda-db.org/strenda/">STRENDA DB</a> 
+and <a href="http://sabio.h-its.org/">SABIO-RK</a> to upload <strong>EnzymeML</strong> documents as entries into their systems.</p>
+<ol start="2">
+<li>Extension of the data model</li>
+</ol>
+<p>Currently, <strong>EnzymeML</strong> documents contain information about reaction conditions (temperature, buffer, 
+additives) and specify the enzyme, the substrates, and the products. We are planning to extend <strong>EnzymeML</strong> 
+to include more details about the enzyme, scuh as How was enzyme concentration measured? Which protein 
+batch was used? How was a recombinant protein expressed and purified?). Also we are extending the 
+dcoument to include information about the reaction vessel and the process (Which microtiter plate or 
+cuvette was used? Include flow reactor as reaction vessel), and about the measurement protocols for 
+substrate and product concentrations.</p>
 </div>
       </div>
     </div>
