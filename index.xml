@@ -106,9 +106,8 @@ Original Peer Review Papers  Paper 1 Paper 2  </description>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/modelers/</guid>
-      <description>Looking for software and databases that read and write EnzymeML?
-Here we present you one example to inspire your team.
-Kinetic modeling of EnzymeML data with COPASI You can analyze and model time course enzyme kinetic data stored in EnzymeML with the biochemical systems simulator COPASI. The integration can be done using the PyEnzyme library and a COPASI-specific thin API layer (TL_COPASI). Once you are in COPASI, you can employ different kinetic laws to estimate kinetic parameters and test reaction mechanisms, and plot your results.</description>
+      <description>How can EnzymeML help you developing, implementing and analysing models? Here we present you one example to illustrate the power of EnzymeML for modelers.
+Kinetic modeling of EnzymeML data with COPASI Experimental data on enzyme kinetics (reaction conditions, enzyme concentration, time course of substrate and product concentrations) is stored in a single EnzymeML document and can uploaded to the biochemical system simulator COPASI. Within COPASI, different reaction mechanisms can be tested by selecting different kinetic laws and estimating kinetic parameters.</description>
     </item>
     
     <item>
@@ -141,14 +140,14 @@ Original Peer Review Papers  Paper 1 Paper 2  </description>
     </item>
     
     <item>
-      <title>For Software Developers</title>
+      <title>For software developers</title>
       <link>http://EnzymeML.org/services/software/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/software/</guid>
-      <description>Want to implement EnzymeML read and write functionalities in your software or database?
-Here we present you one example to inspire your team.
-Uploading EnzymeML documents to SABIO-RK SABIO-RK is a curated database that contains information about biochemical reactions, their kinetic rate equations with parameters, and experimental conditions. YOu can use an EnzymeML parsers, JEnzyme or PyEnzyme, to read in EnzymeML documents and to create a new SABIO-RK entry. Once the entry is created, SABIO-RK curators check the created entry before it is posted to the public SABIO-RK database.</description>
+      <description>Want to implement EnzymeML read and write functionalities in your software or database? Here we present you an example to inspire your team.
+EnzymeML is compatible with SMBL EnzymeML is an extension of SBML. All additional information that are specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, EnzymeML is compatible with SBML.
+You can easily implement an EnzymeML read and write functionality for software applications, such as electronic lab notebooks, laboratory information management systems, modelling platforms, or databases.</description>
     </item>
     
     <item>

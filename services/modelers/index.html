@@ -134,16 +134,27 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For modelers</h1>
-        <div class="content"><p>Looking for software and databases that read and write EnzymeML?</p>
-<p>Here we present you one example to inspire your team.</p>
+        <div class="content"><p>How can <strong>EnzymeML</strong> help you developing, implementing and analysing models? Here 
+we present you one example to illustrate the power of <strong>EnzymeML</strong> for modelers.</p>
 <h2 id="kinetic-modeling-of-enzymeml-data-with-copasi">Kinetic modeling of EnzymeML data with COPASI</h2>
-<p>You can analyze and model time course enzyme kinetic data stored in EnzymeML with 
-the biochemical systems simulator <a href="http://copasi.org/">COPASI</a>. The integration
-can be done using the <a href="https://github.com/EnzymeML/python-enzymeml-copasi">PyEnzyme library</a> 
-and a COPASI-specific thin API layer (TL_COPASI).  Once you are in COPASI, you can
-employ different kinetic laws to estimate kinetic parameters and test reaction
-mechanisms, and plot your results. The selected kinetic model and the estimated 
-kinetic parameters are then added to the EnzymeML document.</p>
+<p>Experimental data on enzyme kinetics (reaction conditions, enzyme
+concentration, time course of substrate and product concentrations) is
+stored in a single <strong>EnzymeML</strong> document and can uploaded to the biochemical
+system simulator <a href="http://copasi.org/">COPASI</a>. Within COPASI, different
+reaction mechanisms can be tested by selecting different kinetic laws
+and estimating kinetic parameters. The selected kinetic model and the
+estimated kinetic parameters are then added to the <strong>EnzymeML</strong> document.</p>
+<p>COPASI can also be used to simulate the time course of a reaction,
+assuming a kinetic model and kinetic parameters. A kinetic model and
+kinetic parameters can be stored in an <strong>EnzymeML</strong> document and loaded to
+COPASI. The simulated time course of substrate and product
+concentrations are then added to the <strong>EnzymeML</strong> document.</p>
+<h3 id="tools-to-integrate-enzymeml-with-copasi">Tools to integrate EnzymeML with COPASI</h3>
+<p>You can easily implement an <strong>EnzymeML</strong> read and write functionality in
+CPOPASI. You will only need to use a specific thin API layer to map <strong>EnzymeML</strong> 
+objects to COPASI, and then use our API containing a Python and a Java library 
+&ndash; <a href="https://github.com/EnzymeML/java-enzymeml">JEnzyme</a> and 
+<a href="https://github.com/EnzymeML/python-enzymeml">PyEnzyme</a>.</p>
 </div>
       </div>
     </div>
