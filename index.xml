@@ -47,8 +47,8 @@ STRENDA Guidelines The STRENDA Guidelines are available on&amp;hellip;.</descrip
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/specifications/</guid>
-      <description>The EnzymeML specifications define the syntax and semantics of EnzymeML. These documents are the definitive references for EnzymeML.
-STRENDA Guidelines The STRENDA Guidelines are available on&amp;hellip;.</description>
+      <description>The EnzymeML specifications define the syntax and semantics of EnzymeML. These documents are the definitive references for EnzymeML. They will be made available upon submission of our first paper. Please state tune for future updates.
+STRENDA Guidelines EnzymeML helps you to implement the STRENDA Guidelines. These guidelines aim to support authors to comprehensively report kinetic and equilibrium data from their investigations of enzyme activities.</description>
     </item>
     
     <item>
@@ -156,8 +156,8 @@ You can easily implement an EnzymeML read and write functionality for software a
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/guide/</guid>
-      <description>The EnzymeML Software and Database Guide provides a summary of all EnzymeMLBML-compatible software systems and databases currently available.
-Original Peer Review Papers  Paper 1 Paper 2  </description>
+      <description>The EnzymeML Software and Database Guide provides a summary of all EnzymeML-compatible software systems and databases currently available.
+COPASI COPASI is a software application for simulation and analysis of biochemical networks and their dynamics. COPASI is a stand-alone program that supports models in the SBML standard and can simulate their behavior using ODEs or Gillespie&amp;rsquo;s stochastic simulation algorithm; arbitrary discrete events can be included in such simulations. COPASI is a versatile with powerful features for representing enzyme models, simulation, and data analysis, visulaization and output.</description>
     </item>
     
     <item>
