@@ -12,23 +12,23 @@
     
     
     <item>
+      <title>EnzymeML 1.0.0 released</title>
+      <link>http://EnzymeML.org/news/enzymeml_1-0-0/</link>
+      <pubDate>Mon, 02 Nov 2020 12:33:46 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/news/enzymeml_1-0-0/</guid>
+      <description>The specifications for Release 1.0.0 of EnzymeML are now under preprapration and will be abailable from the Downloads page.
+Preprint submitted The EnzymeML team submitted the first version of EnzymeML for publication. The reference for the preprint is:
+ Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. Preprint  Please state tune for future updates about our first release.</description>
+    </item>
+    
+    <item>
       <title>Juergen Pleiss</title>
       <link>http://EnzymeML.org/team/juergen-pleiss/</link>
       <pubDate>Mon, 19 Nov 2018 10:47:58 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/juergen-pleiss/</guid>
       <description>Bioinformatics Group Leader, Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany.</description>
-    </item>
-    
-    <item>
-      <title>EnzymeML 1.0.0 released</title>
-      <link>http://EnzymeML.org/news/enzymeml_1-0-0/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/news/enzymeml_1-0-0/</guid>
-      <description>The specifications for Release 1.0.0 of EnzymeML is now available from the Downloads page.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis  Postquam tamen Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet!</description>
     </item>
     
     <item>
@@ -87,8 +87,20 @@ Original Peer Review Papers  Paper 1 Paper 2  </description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/cases/</guid>
-      <description>Here you will find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers
-Original Peer Review Papers  Paper 1 Paper 2  </description>
+      <description>In this page, you will find find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers.
+Original Peer Review Papers The first case studies are decribed in our preprint below.
+ Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. Preprint  </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://EnzymeML.org/documents/publications/</link>
+      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/publications/</guid>
+      <description>This section lists published papers and chapters describing EnzymeML and core EnzymeML-supporting software tools.
+Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
+  Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020).</description>
     </item>
     
     <item>
@@ -108,16 +120,6 @@ Original Peer Review Papers  Paper 1 Paper 2  </description>
       <guid>http://EnzymeML.org/services/modelers/</guid>
       <description>How can EnzymeML help you developing, implementing and analysing models? Here we present you one example to illustrate the power of EnzymeML for modelers.
 Kinetic modeling of EnzymeML data with COPASI Experimental data on enzyme kinetics (reaction conditions, enzyme concentration, time course of substrate and product concentrations) is stored in a single EnzymeML document and can uploaded to the biochemical system simulator COPASI. Within COPASI, different reaction mechanisms can be tested by selecting different kinetic laws and estimating kinetic parameters.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://EnzymeML.org/documents/publications/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/documents/publications/</guid>
-      <description>This section lists published papers and chapters describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers  Paper 1 Paper 2  </description>
     </item>
     
     <item>

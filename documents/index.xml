@@ -6,7 +6,7 @@
     <description>Recent content in Documents on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2018 17:01:34 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate>
     
 	<atom:link href="http://EnzymeML.org/documents/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,18 +27,20 @@ STRENDA Guidelines EnzymeML helps you to implement the STRENDA Guidelines. These
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/cases/</guid>
-      <description>Here you will find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers
-Original Peer Review Papers  Paper 1 Paper 2  </description>
+      <description>In this page, you will find find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers.
+Original Peer Review Papers The first case studies are decribed in our preprint below.
+ Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. Preprint  </description>
     </item>
     
     <item>
       <title>Publications</title>
       <link>http://EnzymeML.org/documents/publications/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/publications/</guid>
       <description>This section lists published papers and chapters describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers  Paper 1 Paper 2  </description>
+Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
+  Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020).</description>
     </item>
     
     <item>

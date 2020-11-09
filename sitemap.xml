@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://EnzymeML.org/team/juergen-pleiss/</loc>
-    <lastmod>2018-11-19T10:47:58+10:00</lastmod>
+    <loc>http://EnzymeML.org/news/enzymeml_1-0-0/</loc>
+    <lastmod>2020-11-02T12:33:46+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://EnzymeML.org/news/enzymeml_1-0-0/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>http://EnzymeML.org/team/juergen-pleiss/</loc>
+    <lastmod>2018-11-19T10:47:58+10:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>http://EnzymeML.org/documents/publications/</loc>
+    <lastmod>2020-11-09T17:01:34+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://EnzymeML.org/team/frank-bergmann/</loc>
     <lastmod>2018-12-20T13:44:23+10:00</lastmod>
   </url>
@@ -50,11 +55,6 @@
   <url>
     <loc>http://EnzymeML.org/services/modelers/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://EnzymeML.org/documents/publications/</loc>
-    <lastmod>2018-02-22T17:01:34+07:00</lastmod>
   </url>
   
   <url>
@@ -103,6 +103,16 @@
   </url>
   
   <url>
+    <loc>http://EnzymeML.org/documents/</loc>
+    <lastmod>2020-11-09T17:01:34+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://EnzymeML.org/news/</loc>
+    <lastmod>2020-11-02T12:33:46+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://EnzymeML.org/contact/</loc>
     <lastmod>2020-10-08T17:01:34+07:00</lastmod>
   </url>
@@ -120,16 +130,6 @@
   <url>
     <loc>http://EnzymeML.org/services/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://EnzymeML.org/news/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://EnzymeML.org/documents/</loc>
-    <lastmod>2018-02-22T17:01:34+07:00</lastmod>
   </url>
   
   <url>
