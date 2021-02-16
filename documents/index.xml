@@ -17,8 +17,19 @@
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/specifications/</guid>
-      <description>The EnzymeML specifications define the syntax and semantics of EnzymeML. These documents are the definitive references for EnzymeML. They will be made available upon submission of our first paper. Please state tune for future updates.
-STRENDA Guidelines EnzymeML helps you to implement the STRENDA Guidelines. These guidelines aim to support authors to comprehensively report kinetic and equilibrium data from their investigations of enzyme activities.</description>
+      <description>The EnzymeML specifications define the syntax and semantics of EnzymeML. These documents are the definitive references for EnzymeML.
+STRENDA Guidelines EnzymeML helps you to implement the STRENDA Guidelines. These guidelines aim to support authors to comprehensively report kinetic and equilibrium data from their investigations of enzyme activities.
+Structure of EnzymeML document An EnzymeML document consists of three file types: a file using SBML to describe the experimental reaction conditions, the kinetic model, and the kinetic parameters, CSV (comma-separated values)-formatted files to store the time courses of substrate and product concentrations, and a manifest file lists the content of the document.</description>
+    </item>
+    
+    <item>
+      <title>Application Programming Interface</title>
+      <link>http://EnzymeML.org/documents/api/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/api/</guid>
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
     <item>
@@ -27,20 +38,10 @@ STRENDA Guidelines EnzymeML helps you to implement the STRENDA Guidelines. These
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/cases/</guid>
-      <description>In this page, you will find find details of selected case studies applying EnzymeML for experimentalists, modelers and software developers.
-Original Peer Review Papers The first case studies are decribed in our preprint below.
- Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. Preprint  </description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://EnzymeML.org/documents/publications/</link>
-      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/documents/publications/</guid>
-      <description>This section lists published papers and chapters describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
-  Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020).</description>
+      <description>To illustrate the power of EnzymeML, we illustrate selected applications for experimental enzymologists, system biology modelers, and software developers.
+Experimental enzymologist application Forthcoming
+Systems biology modeler Forthcoming
+Software developers Forthcoming</description>
     </item>
     
     <item>
@@ -51,6 +52,17 @@ Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rothe
       <guid>http://EnzymeML.org/documents/guide/</guid>
       <description>The EnzymeML Software and Database Guide provides a summary of all EnzymeML-compatible software systems and databases currently available.
 COPASI COPASI is a software application for simulation and analysis of biochemical networks and their dynamics. COPASI is a stand-alone program that supports models in the SBML standard and can simulate their behavior using ODEs or Gillespie&amp;rsquo;s stochastic simulation algorithm; arbitrary discrete events can be included in such simulations. COPASI is a versatile with powerful features for representing enzyme models, simulation, and data analysis, visulaization and output.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://EnzymeML.org/documents/publications/</link>
+      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/publications/</guid>
+      <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
+Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
+  Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020).</description>
     </item>
     
   </channel>
