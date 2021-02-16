@@ -38,7 +38,7 @@ The reference for the preprint is:
       
       <guid>http://EnzymeML.org/downloads/jenzyme/</guid>
       <description>JEnzyme is a free, open-source, pure-Java library for working with EnzymeML. It helps to read and write EnzymeML documents.
-STRENDA Guidelines The STRENDA Guidelines are available on&amp;hellip;.</description>
+The next update of this page is scheduled for February 16, 2021.</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ API description The API uses the SBML syntax and naming conventions which are fa
       
       <guid>http://EnzymeML.org/downloads/pyenzyme/</guid>
       <description>JEnzyme is a free, open-source, Python library for working with EnzymeML. It helps to read and write EnzymeML documents.
-Original Peer Review Papers  Paper 1 Paper 2  </description>
+The next update of this page is scheduled for February 16, 2021.</description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@ Kinetic modeling of EnzymeML data with COPASI Experimental data on enzyme kineti
       
       <guid>http://EnzymeML.org/downloads/api/</guid>
       <description>A free, open-source API library for working with EnzymeML content. It presently supports COPASI, SABIO-RK and STRENDA DB.
-Original Peer Review Papers  Paper 1 Paper 2 This is a test  </description>
+The next update of this page is scheduled for February 16, 2021.</description>
     </item>
     
     <item>
@@ -130,7 +130,8 @@ Original Peer Review Papers  Paper 1 Paper 2 This is a test  </description>
       <description>To illustrate the power of EnzymeML, we illustrate selected applications for experimental enzymologists, system biology modelers, and software developers.
 Experimental enzymologist application Forthcoming
 Systems biology modeler Forthcoming
-Software developers Forthcoming</description>
+Software developers Forthcoming
+The next update of this page is scheduled for February 16, 2021.</description>
     </item>
     
     <item>
@@ -169,7 +170,8 @@ COPASI COPASI is a software application for simulation and analysis of biochemic
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/validators/</guid>
-      <description>A portable, low-level, tools for annocating and validating EnzymeML files.</description>
+      <description>A portable, low-level, tools for annocating and validating EnzymeML files.
+The next update of this page is scheduled for February 16, 2021.</description>
     </item>
     
     <item>
