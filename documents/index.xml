@@ -38,11 +38,8 @@ API description The API uses the SBML syntax and naming conventions which are fa
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/cases/</guid>
-      <description>To illustrate the power of EnzymeML, we illustrate selected applications for experimental enzymologists, system biology modelers, and software developers.
-Experimental enzymologist application Forthcoming
-Systems biology modeler Forthcoming
-Software developers Forthcoming
-The next update of this page is scheduled for February 16, 2021.</description>
+      <description>To illustrate the power of EnzymeML, we illustrate selected applications for experimental enzymologists, system biology modelers, and software developers. More applications are available in our EnzymeML preprint, which can be downloaded in our Publications page.
+Creating EnzymeML documents from spreadsheets In the absence of a standard format, experimentalists typically store their experimental time course data in a spreadsheet following an ad hoc structure. Recently, a CSV-formatted spreadsheet, the BioCatNet template, was proposed to store and report experimental data on enzyme-catalyzed reactions according to the STRENDA Guidelines.</description>
     </item>
     
     <item>
