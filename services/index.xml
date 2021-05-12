@@ -33,14 +33,25 @@ Kinetic modeling of EnzymeML data with COPASI Experimental data on enzyme kineti
     </item>
     
     <item>
+      <title>For database providers</title>
+      <link>http://EnzymeML.org/services/database/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>http://EnzymeML.org/services/database/</guid>
+      <description>Want to implement EnzymeML read and write functionalities in your database? Here you have somes ideas to inspire your team.
+EnzymeML is compatible with SMBL EnzymeML is an extension of SBML. All additional information that are specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, EnzymeML is compatible with SBML.
+Application Programming Interface (API) We created an Application Programming Interface (API) to interface with two database applications: STRENDA DB and SABIO-RK.</description>
+    </item>
+    
+    <item>
       <title>For software developers</title>
       <link>http://EnzymeML.org/services/software/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/software/</guid>
-      <description>Want to implement EnzymeML read and write functionalities in your software or database? Here you have somes ideas to inspire your team.
+      <description>Want to implement EnzymeML read and write functionalities in your software? Here you have somes ideas to inspire your team.
 EnzymeML is compatible with SMBL EnzymeML is an extension of SBML. All additional information that are specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, EnzymeML is compatible with SBML.
-Application Programming Interface (API) We created an Application Programming Interface (API) to interface with three applications: COPASI, STRENDA DB and SABIO-RK.</description>
+Application Programming Interface (API) We created an Application Programming Interface (API) to interface with one software applications: COPASI.</description>
     </item>
     
   </channel>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Application Programming Interface - EnzymeML Project</title>
+  <title>For database providers - EnzymeML Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="/favicon-32x32.svg">
@@ -20,7 +20,7 @@
 
 </head>
 
-<body class='page page-default-single'>
+<body class='page page-services-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
@@ -145,37 +145,28 @@
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      <h1 class="title">Application Programming Interface</h1>
-      <div class="content"><p>An application programming interface (API) which consists of two libraries, the Python library 
-<a href="https://github.com/EnzymeML/PyEnzyme/tree/main">PyEnzyme</a>, and the Java library 
-<a href="https://github.com/EnzymeML/JEnzyme">JEnzyme</a>, which support reading, writing, editing, merging, 
-and visualization of <strong>EnzymeML</strong> documents.</p>
-<h2 id="api-description">API description</h2>
-<p>The API uses the <a href="http://model.caltech.edu/">SBML</a> syntax and naming conventions which are familiar
-to enzymologists to be implemented into <strong>EnzymeML</strong>. The basic concept of the two libraries is the 
-usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored. They 
-are indexed by internal IDs to prevent duplicates and ensure that they can always be traced back 
-from reactions and vice versa. This allows an application to load multiple <strong>EnzymeML</strong> documents 
-and filter them by user-defined properties, such as all reactions in which a certain reactant 
-participates.</p>
-<p>All functions were optimised to require no further knowledge of either <a href="https://www.java.com/en/">Java</a> 
-or <a href="https://www.python.org/">Python</a>, such that users only have to adapt to the EnzymeML syntax.</p>
-<h2 id="application-specific-thin-api-layer">Application-specific thin API layer</h2>
-<p>In order to make <strong>EnzymeML</strong> accessible to a specific application, a thin API layer maps between 
-the object layers of the API and of the application. An application-specific thin API layer can either 
-be used to import or export EnzymeML documents.</p>
-<p>To create a thin API layer, two templates are provided which can be customised to read or write relevant 
-attributes. The <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/templates/TL_ImportTemplate.ipynb">first template</a> 
-contains all code needed to extract information contained in an EnzymeML document. The user will decide 
-which code is needed for the specific application and will do the mapping. The 
-<a href="https://github.com/EnzymeML/PyEnzyme/tree/main/templates/TL_ExportTemplate.ipynb">second template</a> provides 
-all code needed to create an <strong>EnzymeML</strong> document.</p>
-<p>The easy-to-use syntax allows fast and easy access to all information of an <strong>EnzymeML</strong> document as 
-well as its creation.  In the <a href="/documents/cases">Use cases</a>, we demonstrate the usage of the API for 
-the integration of three applications: <a href="http://copasi.org/">COPASI</a>, 
-<a href="https://www.beilstein-strenda-db.org/strenda/index.xhtml">STRENDA DB</a> and
-<a href="http://sabio.h-its.org/">SABIO-RK</a>.</p>
+      <div class="service service-single">
+        <h1 class="title">For database providers</h1>
+        <div class="content"><p>Want to implement <strong>EnzymeML</strong> read and write functionalities in your database? Here 
+you have somes ideas to inspire your team.</p>
+<h2 id="enzymeml-is-compatible-with-smbl">EnzymeML is compatible with SMBL</h2>
+<p><strong>EnzymeML</strong> is an extension of <a href="http://sbml.org/">SBML</a>. All additional information that are
+specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, <strong>EnzymeML</strong> 
+is compatible with SBML.</p>
+<h2 id="application-programming-interface-api">Application Programming Interface (API)</h2>
+<p>We created an <a href="/documents/api">Application Programming Interface</a> (API) to interface with two database 
+applications: <a href="https://www.beilstein-strenda-db.org/strenda/index.xhtml">STRENDA DB</a> and
+<a href="http://sabio.h-its.org/">SABIO-RK</a>.  In the <a href="/documents/cases">Use cases</a>, we demonstrate the usage 
+of the API for the integration with these applications.</p>
+<h3 id="are-you-interested-in-using-enzymeml">Are you interested in using EnzymeML?</h3>
+<p>You can easily implement an <strong>EnzymeML</strong> read and write functionality for software applications,
+such as electronic lab notebooks, laboratory information management systems, modelling platforms, 
+or databases. You will only need to create an application-specific thin API layer to map <strong>EnzymeML</strong> 
+objects to the software application, and then use our API containing a Python and a Java library 
+&ndash; <a href="https://github.com/EnzymeML/java-enzymeml">JEnzyme</a> and 
+<a href="https://github.com/EnzymeML/python-enzymeml">PyEnzyme</a>.</p>
 </div>
+      </div>
     </div>
   </div>
 </div>
@@ -237,7 +228,13 @@ the integration of three applications: <a href="http://copasi.org/">COPASI</a>,
   
 
   
+
+
+
+
+  <script type="text/javascript" src="/js/services.min.96db5a4d9a7ea2d1759fd6847940367b5207c4ef5686df932179e04aefccdf37.js"></script>
   
+
 
   
   <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
