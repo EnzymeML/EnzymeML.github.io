@@ -49,12 +49,6 @@
       </a>
     </li>
     
-    <li class="menu-item-downloads">
-      <a href="/downloads/">
-        <span>Downloads</span>
-      </a>
-    </li>
-    
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
@@ -110,13 +104,6 @@
       </a>
     </li>
     
-    <li class="menu-item-downloads">
-      <a href="/downloads/">
-        
-        <span>Downloads</span>
-      </a>
-    </li>
-    
     <li class="menu-item-tools">
       <a href="/tools/">
         
@@ -147,28 +134,14 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For modelers</h1>
-        <div class="content"><p>How can <strong>EnzymeML</strong> help you developing, implementing and analysing models? Here 
-we present you one example to illustrate the power of <strong>EnzymeML</strong> for modelers.</p>
-<h2 id="kinetic-modeling-of-enzymeml-data-with-copasi">Kinetic modeling of EnzymeML data with COPASI</h2>
-<p>Experimental data on enzyme kinetics (reaction conditions, enzyme
-concentration, time course of substrate and product concentrations) is
-stored in a single <strong>EnzymeML</strong> document and can uploaded to the biochemical
-system simulator <a href="http://copasi.org/">COPASI</a>. Within COPASI, different
-reaction mechanisms can be tested by selecting different kinetic laws
-and estimating kinetic parameters. The selected kinetic model and the
-estimated kinetic parameters are then added to the <strong>EnzymeML</strong> document.</p>
-<p>COPASI can also be used to simulate the time course of a reaction,
-assuming a kinetic model and kinetic parameters. A kinetic model and
-kinetic parameters can be stored in an <strong>EnzymeML</strong> document and loaded to
-COPASI. The simulated time course of substrate and product
-concentrations are then added to the <strong>EnzymeML</strong> document.</p>
-<h3 id="tools-to-integrate-enzymeml-with-copasi">Tools to integrate EnzymeML with COPASI</h3>
-<p>You can easily implement an <strong>EnzymeML</strong> read and write functionality in
-CPOPASI. You will only need to use a specific thin <a href="/documents/api">API</a> 
-layer to map <strong>EnzymeML</strong> objects to COPASI, and then use our API containing 
-a Python and a Java library &ndash; <a href="https://github.com/EnzymeML/java-enzymeml">JEnzyme</a> 
-and <a href="https://github.com/EnzymeML/python-enzymeml">PyEnzyme</a>.  For more details,
-please visit <a href="/documents/cases">Use cases</a>.</p>
+        <div class="content"><p>How can EnzymeML help you developing, implementing and analysing models?</p>
+<p>An EnzymeML document provides the complete experimental information including the enzyme concentration, the initial concentrations of substrates, products, or inhibitors, and the measured concentrations of substrate or product at different time points. It might also provide a preferred kinetic model or alternative kinetic models. The model consists of a kinetic law which determines the temporal changes in the concentration of substrates, products, or enzyme as a function of measured concentrations of substrates, products, and enzyme, and of kinetic parameters.</p>
+<p>The modeler then selects a kinetic model given in the EnzymeML  document or generates a separate kinetic model, which is then used to estimate the kinetic parameters by fitting the time course of substrate or product concentrations as predicted from the model to the experimentally determined time courses. Fitting is done for a set of initial conditions such as a range of initial substrate concentrations and enzyme concentrations. A model might also include the effect of pH or temperature.</p>
+<p>The major advantage of EnzymeML to the modeler is the completeness and interoperability of the experimental data.
+Finally, the estimated parameters are added to the EnzymeML document, which then contains the complete information on the experiment: the reaction conditions, the time course of substrates and products, the selected kinetic model, and the estimated kinetic parameters.</p>
+<h2 id="currently-implemented-functionalities">Currently implemented functionalities</h2>
+<h3 id="a-simple-michaelis-menten-fitting-procedure-provided-by-the-enzymeml-api">A simple Michaelis-Menten fitting procedure provided by the EnzymeML API</h3>
+<p>In order to model your experimental data described in your EnzymeML document, simply provide the archive alongide the reaction and reactants you want to model to our RESTful API. You will receive a new archive incuding the estimated parameters. For further information plese consider reading our <a href="https://enzml.sloppy.zone/swagger-ui/#/Model%20EnzymeReaction/get_model">documentation</a>.</p>
 </div>
       </div>
     </div>
@@ -236,12 +209,12 @@ please visit <a href="/documents/cases">Use cases</a>.</p>
 
 
 
-  <script type="text/javascript" src="/js/services.min.96db5a4d9a7ea2d1759fd6847940367b5207c4ef5686df932179e04aefccdf37.js"></script>
+  <script type="text/javascript" src="/js/services.min.052ec1d7bcff8bba2b50359ebe62c0e6d0f530b3bd5cf723d5ccc5e8f22bd123.js"></script>
   
 
 
   
-  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  <script type="text/javascript" src="/js/scripts.min.98ee06cc35517b5800b382aecb0fc59893e95b9c11dd21842d0d57e4f68043e3.js"></script>
   
 
   

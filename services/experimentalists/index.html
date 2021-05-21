@@ -49,12 +49,6 @@
       </a>
     </li>
     
-    <li class="menu-item-downloads">
-      <a href="/downloads/">
-        <span>Downloads</span>
-      </a>
-    </li>
-    
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
@@ -110,13 +104,6 @@
       </a>
     </li>
     
-    <li class="menu-item-downloads">
-      <a href="/downloads/">
-        
-        <span>Downloads</span>
-      </a>
-    </li>
-    
     <li class="menu-item-tools">
       <a href="/tools/">
         
@@ -147,58 +134,49 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For experimentalists</h1>
-        <div class="content"><p>How can <strong>EnzymeML</strong> help you to manage your experimental data?</p>
-<h2 id="managing-experimental-data-with-enzymeml">Managing experimental data with EnzymeML</h2>
+        <div class="content"><p>How can EnzymeML help you to manage your experimental data?</p>
+<p>EnzymeML was developed to support data acquisition, data analysis, and sharing of data by providing a standardized exchange format for enzymatic data. EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) <a href="https://www.beilstein-institut.de/projekte/strenda/">Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML).</p>
+<p>It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and  product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters. The measured time course of substrate or product concentrations are stored in a comma-separated values (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a>.</p>
+<p>The typical user is not expected to read or write EnzymeML documents directly, but to use software to generate EnzymeML documents, which are then used as a standardised exchange format to transfer data between applications. Therefore, an Application Programming Interface (API) was developed to read, write, and edit EnzymeML documents.</p>
+<p>The API is a Python library (<a href="https://github.com/EnzymeML/PyEnzyme">PyEnzyme on GitHub</a>), which can be installed locally, or can be accessed as a RESTful Web service. This Web service can be used by any application such as an electronic laboratory notebook (ELN), a modelling platform, or a specialized database to read or write EnzymeML documents. Upon reading, writing, and editing of EnzymeML documents, the API controls data completeness and consistency, such as checking that scalar properties such as pH are within a given range. Additional validation tools control compatibility with SBML or with minimum requirements of applications such as STRENDA DB, SABIO-RK, or COPASI.</p>
+<h3 id="why-managing-experimental-data-with-enzymeml">Why managing experimental data with EnzymeML?</h3>
+<ol>
+<li>Measured time course data on substrate and/or product concentrations is saved in the same document with metadata about the enzyme and the reaction conditions. This faciliates replicability and reproducibility of experimental assays.</li>
+<li><strong>EnzymeML</strong> documents are standardized, so their format is independent of the experimental scientist. Documents are machine- and human-readable. Markup languanges (ML) are specifically designed for machines, and therefore they are not optimally for user reading. <strong>EnzymeML</strong> follows internationally recognized standards (<a href="http://sbml.org/">SBML</a>, <a href="https://www.w3.org/Math/">MathML</a>). An application programming interface (API) allows for the easy integration of applications for data visualization and modeling.</li>
+<li>Modelling data (kinetic rate law, kinetic parameters) can be added into the same <strong>EnzymeML</strong> document. Multiple models can be applied to the same dataset.</li>
+<li><strong>EnzymeML</strong> documents can be considered as a micropublication, because it contains data and metadata. By assigning a digital object identifier (<a href="https://www.doi.org/">DOI</a>) to <strong>EnzymeML</strong> documents, they can be easily referenced.</li>
+</ol>
+<h2 id="currently-implemented-functionalities">Currently implemented functionalities</h2>
+<h4 id="data-acquisition">Data acquisition</h4>
+<p>An EnzymeML document includes information about the reaction conditions (e.g. enzyme, substrates, products, pH, temperature) and the measured concentrations of substrate or product at different time points. Currently, we provide two alternatives routes on how to create an EnzymeML document:</p>
+<ul>
+<li>by filling in the EnzymeML spreadsheet (download <a href="https://www.dropbox.com/s/bigaq2l1vynr13k/EnzymeML_Template.zip?dl=1">here</a>) and converting it to an EnzymeML document via upload using our <a href="https://enzml.sloppy.zone/template/upload">EnzymeML template conversion page</a>.</li>
+<li>by the graphical user  interface <a href="https://biocathubangular.herokuapp.com/">BioCatHub</a>.</li>
+</ul>
+<h4 id="data-modelling">Data modelling</h4>
+<p>As second step, the EnzymeML document generated upon data acquisition is used as starting point for modelling the enzyme kinetics.
+Currently, we provide three alternatives routes on how to model the kinetics from experimental data:</p>
+<ul>
+<li>by a simple Michaelis-Menten fitting procedure using our <a href="https://enzml.sloppy.zone/swagger-ui/#/Model%20EnzymeReaction/get_model">RESTful API modeling endpoint</a>.</li>
+<li>by defining a kinetic model and estimating parameters using a Jupyter Notebook.</li>
+</ul>
+<h4 id="data-integration">Data integration</h4>
+<p>Finally, the complete data of the enzyme catalyzed reaction (reaction conditions, time course data, selected kinetic model, estimated kinetic parameters) is uploaded to an EnzymeML Dataverse or to a specialized database such as SABIO-RK:</p>
+<ul>
+<li>Upload to SABIO-RK</li>
+<li>Creation of a dataset in an EnzymeML Dataverse. Please contact us for assistance with the implementation of an EnzymeML Dataverse in your local Dataverse installation. Visit our <a href="https://enzymeml.atlassian.net/wiki/spaces/ENZYMEML/pages/46923805/For+database+providers">page dedicated to database providers</a> for further information.</li>
+</ul>
+<h2 id="how-can-you-contribute-to-enzymeml">How can you contribute to EnzymeML?</h2>
 <ol>
 <li>
-<p>Measured time course data on substrate and/or product concentrations is saved in the same document with 
-metadata about the enzyme and the reaction conditions. This faciliates replicability and reproducibility of
-experimental assays.</p>
+<p><strong>More applications which read and write EnzymeML</strong></p>
+<p>As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without need of reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write <strong>EnzymeML</strong> (find technical details <a href="https://enzymeml.org/services/software/">here</a>).</p>
 </li>
 <li>
-<p><strong>EnzymeML</strong> documents are standardized, so their format is independent of the experimental scientist. Documents
-are machine- and human-readable. Markup languanges (ML) are specifically designed for machines, and therefore 
-they are not optimally for user reading.  <strong>EnzymeML</strong> follows internationally recognized standards 
-(<a href="http://sbml.org/">SBML</a>, <a href="https://www.w3.org/Math/">MathML</a>). An application programming interface (API) 
-allows for the easy integration of applications for data visualization and modeling.</p>
-</li>
-<li>
-<p>Modelling data (kinetic rate law, kinetic parameters) can be added into the same <strong>EnzymeML</strong> document. 
-Multiple models can be applied to the same dataset.</p>
-</li>
-<li>
-<p><strong>EnzymeML</strong> documents can be considered as a micropublication, because it contains data and metadata. By
-assigning a digital object identifier (<a href="https://www.doi.org/">DOI</a>) to <strong>EnzymeML</strong> documents, they can be 
-easily referenced.</p>
+<p><strong>Extension of the data model</strong></p>
+<p>Currently, an <strong>EnzymeML</strong> document contains information about reaction conditions (temperature, buffer, additives) and about the enzyme, the substrates, and the products. We are planning to extend <strong>EnzymeML</strong> to include more details about the measurement protocols for substrate and product concentrations, the enzyme (specifying a batch, its preparation, measuring of enzyme concentration, immobilization), the reaction vessel (microtiter well, cuvette, flow reactor), and about the modelling process including quality measures of the estimated parameters.</p>
 </li>
 </ol>
-<h2 id="converting-data-spreadsheets-into-enzymeml-documents">Converting data spreadsheets into EnzymeML documents</h2>
-<p>Spreadsheets such as Excel files are widely used and serve as an easy way of storing experimental data. 
-We developed <a href="/documents/api">Application Programming Interface</a> to convert spreadsheets into <strong>EnzymeML</strong> 
-documents. For more details, please visit <a href="/documents/cases">Use cases</a>.</p>
-<p>Presently, we are developing a simple graphical user interface, the <a href="https://doi.org/10.1002/cite.202055297">BioCatHub</a> 
-platform, to collect experimental data and to generate <strong>EnzymeML</strong> documents.</p>
-<h2 id="future-developments">Future Developments</h2>
-<ol>
-<li>Applications which read and write <strong>EnzymeML</strong></li>
-</ol>
-<p>In order to make full use of a data exchange format, applications are required to use it. We 
-are presently collaborating with software developers to provide <strong>EnzymeML</strong> read and write functionalities 
-to the modelling platforms <a href="http://copasi.org/">COPASI</a> and <a href="http://pysces.sourceforge.net/">PySCeS</a>. We 
-are also developing the <a href="https://doi.org/10.1002/cite.202055297">BioCatHub</a> platform as simple tool for experimentalists 
-to collect experimental data and metadata using a graphical user interface, and then to generate <strong>EnzymeML</strong> 
-documents. Additionally, we are working with the databases <a href="https://www.beilstein-strenda-db.org/strenda/">STRENDA DB</a> 
-and <a href="http://sabio.h-its.org/">SABIO-RK</a> to upload <strong>EnzymeML</strong> documents as entries into their systems.</p>
-<ol start="2">
-<li>Extension of the data model</li>
-</ol>
-<p>Currently, <strong>EnzymeML</strong> documents contain information about reaction conditions (temperature, buffer, 
-additives) and specify the enzyme, the substrates, and the products. We are planning to extend <strong>EnzymeML</strong> 
-to include more details about the enzyme, scuh as How was enzyme concentration measured? Which protein 
-batch was used? How was a recombinant protein expressed and purified?). Also we are extending the 
-dcoument to include information about the reaction vessel and the process (Which microtiter plate or 
-cuvette was used? Include flow reactor as reaction vessel), and about the measurement protocols for 
-substrate and product concentrations.</p>
 </div>
       </div>
     </div>
@@ -266,12 +244,12 @@ substrate and product concentrations.</p>
 
 
 
-  <script type="text/javascript" src="/js/services.min.96db5a4d9a7ea2d1759fd6847940367b5207c4ef5686df932179e04aefccdf37.js"></script>
+  <script type="text/javascript" src="/js/services.min.052ec1d7bcff8bba2b50359ebe62c0e6d0f530b3bd5cf723d5ccc5e8f22bd123.js"></script>
   
 
 
   
-  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  <script type="text/javascript" src="/js/scripts.min.98ee06cc35517b5800b382aecb0fc59893e95b9c11dd21842d0d57e4f68043e3.js"></script>
   
 
   
