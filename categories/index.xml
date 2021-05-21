@@ -5,10 +5,6 @@
     <link>http://EnzymeML.org/categories/</link>
     <description>Recent content in Categories on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://EnzymeML.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://EnzymeML.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
