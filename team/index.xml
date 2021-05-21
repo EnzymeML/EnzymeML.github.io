@@ -6,7 +6,11 @@
     <description>Recent content in Team on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2020 10:47:58 +1000</lastBuildDate><atom:link href="http://EnzymeML.org/team/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 10:47:58 +1000</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Juergen Pleiss</title>
       <link>http://EnzymeML.org/team/juergen-pleiss/</link>
@@ -62,38 +66,11 @@
     </item>
     
     <item>
-      <title>Hannah Dienhart</title>
-      <link>http://EnzymeML.org/team/hannah-dienhart/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/hannah-dienhart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jan Range</title>
       <link>http://EnzymeML.org/team/jan-range/</link>
       <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/jan-range/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simone Lauterbach</title>
-      <link>http://EnzymeML.org/team/simone-lauterbach/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/simone-lauterbach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stephan Malzacher</title>
-      <link>http://EnzymeML.org/team/stephan-malzacher/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/stephan-malzacher/</guid>
       <description></description>
     </item>
     

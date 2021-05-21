@@ -49,6 +49,12 @@
       </a>
     </li>
     
+    <li class="menu-item-downloads">
+      <a href="/downloads/">
+        <span>Downloads</span>
+      </a>
+    </li>
+    
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
@@ -104,6 +110,13 @@
       </a>
     </li>
     
+    <li class="menu-item-downloads">
+      <a href="/downloads/">
+        
+        <span>Downloads</span>
+      </a>
+    </li>
+    
     <li class="menu-item-tools">
       <a href="/tools/">
         
@@ -134,28 +147,23 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For software developers</h1>
-        <div class="content"><p>Want to implement <strong>EnzymeML</strong> read and write functionalities in your software? Here
+        <div class="content"><p>Want to implement <strong>EnzymeML</strong> read and write functionalities in your software? Here 
 you have somes ideas to inspire your team.</p>
-<h2 id="enzymeml-documents">EnzymeML documents</h2>
-<p><strong>EnzymeML</strong> follows the Standards of Reporting Enzymology Data (STRENDA) <a href="https://www.beilstein-institut.de/en/projects/strenda/guidelines/">Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. <strong>EnzymeML</strong> is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/xsd">here</a>). The measured time course of substrate or product concentrations are stored in a comma-separated values (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a></p>
+<h2 id="enzymeml-is-compatible-with-smbl">EnzymeML is compatible with SMBL</h2>
+<p><strong>EnzymeML</strong> is an extension of <a href="http://sbml.org/">SBML</a>. All additional information that are
+specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, <strong>EnzymeML</strong> 
+is compatible with SBML.</p>
 <h2 id="application-programming-interface-api">Application Programming Interface (API)</h2>
-<p>You can implement <strong>EnzymeML</strong> read and write functionalities into your software application (electronic lab notebooks, laboratory information management systems, modelling platforms, or database) by using the EnzymeML Application Programming Interface (API), either as a python library to be implemented locally with your software, as a RESTful API to be implemented locally,  or via a RESTful API installed on our webserver.</p>
-<h2 id="how-to-interact-with-the-api">How to interact with the API</h2>
-<p>We start from a EnzymeML document which contains the experimental conditions (protein sequence of the enzyme, enzyme concentration, temperature, inital substrate concentration, time course of substrate). The goal is to read in the time course data in a modelling tool, to estimate kinetic parameters, and to add the kinetic parameters and the selected kinetic model to the EnzymeML document</p>
-<ol>
-<li>Application (e.g. modelling tool)    sends an EnzymeML document (example here) and a request for reading time course data and enzyme concentration (example here) to the API  (URL:&hellip;.)</li>
-<li>The API extracts the requested information (e.g. time course data and enzyme concentration) from the EnzymeML document and sends back a JSON file (template here) to the application (e.g. modelling tool)</li>
-<li>The modelling tool reads in the information from the JSON file, defines a model (e.g. Michaelis-Menten) and estimates kinetic parmeters by fitting the time course data</li>
-<li>The modeling tool writes the selected model and estimated parameters  to a JSON file and sends it to the API, together with the EnzymeML document</li>
-<li>The API inserts the selected model and estimated parameters into the EnzymeML documents and sends it back</li>
-</ol>
-<p>As a result, the EnzymeML document does not only contain the experimentally measure data, but also the model and the estimated kinetic parameters. One experimental dataset might be modelled by many different kinetic models, therefore the EnzymeML document might contain different kinetic models and the respective parameters together with a single experimental dataset.</p>
-<h3 id="resources">Resources</h3>
-<ul>
-<li>Download the python library from the <a href="https://github.com/EnzymeML/PyEnzyme/">EnzymeML Github</a></li>
-<li>The RESTful API is packaged within <a href="https://www.docker.com/">DOCKER </a>to facilitate a local installation - In order to integrate our API <a href="https://hub.docker.com/r/enzymeml/pyenzyme">download</a> our docker image and use our <a href="https://enzml.sloppy.zone/swagger-ui/">documentation</a>.</li>
-<li>Use the publicly available RESTful API at <a href="https://enzml.sloppy.zone/swagger-ui/">https://enzml.sloppy.zone</a>. Please note, we are using security standards such as SSL and several backend checks to make sure your data wont be exposed. On top of that, your wont reside on our servers and is immediately removed.</li>
-</ul>
+<p>We created an <a href="/documents/api">Application Programming Interface</a> (API) to interface with one software 
+applications: <a href="http://copasi.org/">COPASI</a>.  In the <a href="/documents/cases">Use cases</a>, we demonstrate the usage 
+of the API for the integration with these applications.</p>
+<h3 id="are-you-interested-in-using-enzymeml">Are you interested in using EnzymeML?</h3>
+<p>You can easily implement an <strong>EnzymeML</strong> read and write functionality for software applications,
+such as electronic lab notebooks, laboratory information management systems, modelling platforms, 
+or databases. You will only need to create an application-specific thin API layer to map <strong>EnzymeML</strong> 
+objects to the software application, and then use our API containing a Python and a Java library 
+&ndash; <a href="https://github.com/EnzymeML/java-enzymeml">JEnzyme</a> and 
+<a href="https://github.com/EnzymeML/python-enzymeml">PyEnzyme</a>.</p>
 </div>
       </div>
     </div>
@@ -223,12 +231,12 @@ you have somes ideas to inspire your team.</p>
 
 
 
-  <script type="text/javascript" src="/js/services.min.052ec1d7bcff8bba2b50359ebe62c0e6d0f530b3bd5cf723d5ccc5e8f22bd123.js"></script>
+  <script type="text/javascript" src="/js/services.min.96db5a4d9a7ea2d1759fd6847940367b5207c4ef5686df932179e04aefccdf37.js"></script>
   
 
 
   
-  <script type="text/javascript" src="/js/scripts.min.98ee06cc35517b5800b382aecb0fc59893e95b9c11dd21842d0d57e4f68043e3.js"></script>
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
   
 
   

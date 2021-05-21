@@ -6,7 +6,11 @@
     <description>Recent content in Home on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 17:01:34 +0700</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>EnzymeML 1.0 released</title>
       <link>http://EnzymeML.org/news/enzymeml_1-0/</link>
@@ -65,19 +69,8 @@ Structure of EnzymeML document An EnzymeML document consists of three file types
       
       <guid>http://EnzymeML.org/services/experimentalists/</guid>
       <description>How can EnzymeML help you to manage your experimental data?
-EnzymeML was developed to support data acquisition, data analysis, and sharing of data by providing a standardized exchange format for enzymatic data. EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) Guidelines, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML).
-It builds on the well-established Systems Biology Markup Language (SBML) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters.</description>
-    </item>
-    
-    <item>
-      <title>Native EnzymeML tools</title>
-      <link>http://EnzymeML.org/tools/byenzymeml/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/byenzymeml/</guid>
-      <description>We provide multiple native software solutions for you, either if you are an experimentalist using EnzymeML to document your experiments or a database provider to integrate our data model into your system.
-Spreadsheet to EnzymeML conversion Download the EnzymeML spreadsheet template and fill in your experimental data. Once done, you can use our template conversion page to convert your spreadsheet to an EnzymeML document.
-For further information, please contact us or investiagte the example sheet that is included in the EnzymeML spreadsheet template archive.</description>
+Managing experimental data with EnzymeML   Measured time course data on substrate and/or product concentrations is saved in the same document with metadata about the enzyme and the reaction conditions. This faciliates replicability and reproducibility of experimental assays.
+  EnzymeML documents are standardized, so their format is independent of the experimental scientist. Documents are machine- and human-readable. Markup languanges (ML) are specifically designed for machines, and therefore they are not optimally for user reading.</description>
     </item>
     
     <item>
@@ -115,8 +108,8 @@ The library JEnzyme was built based on its respective SBML counterparts libsbml.
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/modelers/</guid>
-      <description>How can EnzymeML help you developing, implementing and analysing models?
-An EnzymeML document provides the complete experimental information including the enzyme concentration, the initial concentrations of substrates, products, or inhibitors, and the measured concentrations of substrate or product at different time points. It might also provide a preferred kinetic model or alternative kinetic models. The model consists of a kinetic law which determines the temporal changes in the concentration of substrates, products, or enzyme as a function of measured concentrations of substrates, products, and enzyme, and of kinetic parameters.</description>
+      <description>How can EnzymeML help you developing, implementing and analysing models? Here we present you one example to illustrate the power of EnzymeML for modelers.
+Kinetic modeling of EnzymeML data with COPASI Experimental data on enzyme kinetics (reaction conditions, enzyme concentration, time course of substrate and product concentrations) is stored in a single EnzymeML document and can uploaded to the biochemical system simulator COPASI. Within COPASI, different reaction mechanisms can be tested by selecting different kinetic laws and estimating kinetic parameters.</description>
     </item>
     
     <item>
@@ -154,9 +147,9 @@ Creating EnzymeML documents from spreadsheets In the absence of a standard forma
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/database/</guid>
-      <description>How can EnzymeML help you to publish results and to exchange data?
-EnzymeML is a flexible data model for biocatalysis and enzymology capable to completely describe an experiment in a machine-readable format. In order to handle and integrate EnzymeML in your database, we provide our software solution PyEnzyme, which can be either installed locally or reached via several endpoints of our REST-API.
-Currently implemented functionalities Validation of minimal requirements and upload to SABIO-RK PyEnzyme as well as our REST-API provide an interface to validate incoming EnzymeML documents to comply with the minimal requirements necessary for a succesful upload to your database.</description>
+      <description>Want to implement EnzymeML read and write functionalities in your database? Here you have somes ideas to inspire your team.
+EnzymeML is compatible with SMBL EnzymeML is an extension of SBML. All additional information that are specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, EnzymeML is compatible with SBML.
+Application Programming Interface (API) We created an Application Programming Interface (API) to interface with two database applications: STRENDA DB and SABIO-RK.</description>
     </item>
     
     <item>
@@ -166,19 +159,8 @@ Currently implemented functionalities Validation of minimal requirements and upl
       
       <guid>http://EnzymeML.org/services/software/</guid>
       <description>Want to implement EnzymeML read and write functionalities in your software? Here you have somes ideas to inspire your team.
-EnzymeML documents EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) Guidelines, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (SBML) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition here).</description>
-    </item>
-    
-    <item>
-      <title>For the community</title>
-      <link>http://EnzymeML.org/services/contribute/</link>
-      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/services/contribute/</guid>
-      <description>How can you contribute to EnzymeML?   More applications which read and write EnzymeML
-As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without need of reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write EnzymeML (find technical details here).
-  Extension of the data model
-Currently, an EnzymeML document contains information about reaction conditions (temperature, buffer, additives) and about the enzyme, the substrates, and the products.</description>
+EnzymeML is compatible with SMBL EnzymeML is an extension of SBML. All additional information that are specific to enzyme-catalyzed are added as annotation in a standard SBML file. Thus, EnzymeML is compatible with SBML.
+Application Programming Interface (API) We created an Application Programming Interface (API) to interface with one software applications: COPASI.</description>
     </item>
     
     <item>
@@ -232,38 +214,11 @@ Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rothe
     </item>
     
     <item>
-      <title>Hannah Dienhart</title>
-      <link>http://EnzymeML.org/team/hannah-dienhart/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/hannah-dienhart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jan Range</title>
       <link>http://EnzymeML.org/team/jan-range/</link>
       <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/jan-range/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simone Lauterbach</title>
-      <link>http://EnzymeML.org/team/simone-lauterbach/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/simone-lauterbach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stephan Malzacher</title>
-      <link>http://EnzymeML.org/team/stephan-malzacher/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/stephan-malzacher/</guid>
       <description></description>
     </item>
     
@@ -274,20 +229,6 @@ Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rothe
       
       <guid>http://EnzymeML.org/team/andreas-weidemann/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Community integrations</title>
-      <link>http://EnzymeML.org/tools/bycommunity/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/bycommunity/</guid>
-      <description>Find tools developed by the community, which integrate the EnzymeML data model and software in various applications, such as databases or kinetic modeling.
-BioCatHub Content soon to be added&amp;hellip;
-SABIO-RK upload Content soon to be added&amp;hellip;
-STRENDA-DB upload Content soon to be added&amp;hellip;
-Dataverse integration Content soon to be added&amp;hellip;
-Kinetic modeling via Jupyter Content soon to be added&amp;hellip;</description>
     </item>
     
     <item>
