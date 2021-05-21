@@ -134,8 +134,7 @@
     <div class="col-12 col-md-8">
       <h1 class="title">Application Programming Interface</h1>
       <div class="content"><p>An application programming interface (API) which consists of two libraries, the Python library 
-<a href="https://github.com/EnzymeML/PyEnzyme/tree/main">PyEnzyme</a>, and the Java library 
-<a href="https://github.com/EnzymeML/JEnzyme">JEnzyme</a>, which support reading, writing, editing, merging, 
+<a href="https://github.com/EnzymeML/PyEnzyme/tree/main">PyEnzyme</a>, and the <a href="https://enzml.sloppy.zone/swagger-ui">REST-API</a>, which support reading, writing, editing, merging, 
 and visualization of <strong>EnzymeML</strong> documents.</p>
 <h2 id="api-description">API description</h2>
 <p>The API uses the <a href="http://model.caltech.edu/">SBML</a> syntax and naming conventions which are familiar
@@ -145,8 +144,7 @@ are indexed by internal IDs to prevent duplicates and ensure that they can alway
 from reactions and vice versa. This allows an application to load multiple <strong>EnzymeML</strong> documents 
 and filter them by user-defined properties, such as all reactions in which a certain reactant 
 participates.</p>
-<p>All functions were optimised to require no further knowledge of either <a href="https://www.java.com/en/">Java</a> 
-or <a href="https://www.python.org/">Python</a>, such that users only have to adapt to the EnzymeML syntax.</p>
+<p>All functions were optimised to require no further knowledge of <a href="https://www.python.org/">Python</a>, such that users only have to adapt to the EnzymeML syntax.</p>
 <h2 id="application-specific-thin-api-layer">Application-specific thin API layer</h2>
 <p>In order to make <strong>EnzymeML</strong> accessible to a specific application, a thin API layer maps between 
 the object layers of the API and of the application. An application-specific thin API layer can either 

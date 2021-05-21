@@ -24,7 +24,7 @@ Structure of EnzymeML document An EnzymeML document consists of three file types
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
