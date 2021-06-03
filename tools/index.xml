@@ -18,19 +18,6 @@ Spreadsheet to EnzymeML conversion Download the EnzymeML spreadsheet template an
 For further information, please contact us or investiagte the example sheet that is included in the EnzymeML spreadsheet template archive.</description>
     </item>
     
-    <item>
-      <title>Community integrations</title>
-      <link>http://EnzymeML.org/tools/bycommunity/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/bycommunity/</guid>
-      <description>Find tools developed by the community, which integrate the EnzymeML data model and software in various applications, such as databases or kinetic modeling.
-BioCatHub Content soon to be added&amp;hellip;
-SABIO-RK upload Content soon to be added&amp;hellip;
-STRENDA-DB upload Content soon to be added&amp;hellip;
-Dataverse integration Content soon to be added&amp;hellip;
-Kinetic modeling via Jupyter Content soon to be added&amp;hellip;</description>
-    </item>
     
   </channel>
 </rss>
