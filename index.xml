@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>EnzymeML 1.0 released</title>
+      <title>EnzymeML 1.0 released 2020-11-02</title>
       <link>http://EnzymeML.org/news/enzymeml_1-0/</link>
       <pubDate>Mon, 02 Nov 2020 12:33:46 +1000</pubDate>
       
@@ -67,17 +67,6 @@ Structure of EnzymeML document An EnzymeML document consists of three file types
       <description>How can EnzymeML help you to manage your experimental data?
 EnzymeML was developed to support data acquisition, data analysis, and sharing of data by providing a standardized exchange format for enzymatic data. EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) Guidelines, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML).
 It builds on the well-established Systems Biology Markup Language (SBML) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters.</description>
-    </item>
-    
-    <item>
-      <title>Native EnzymeML tools</title>
-      <link>http://EnzymeML.org/tools/byenzymeml/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/byenzymeml/</guid>
-      <description>We provide multiple native software solutions for you, either if you are an experimentalist using EnzymeML to document your experiments or a database provider to integrate our data model into your system.
-Spreadsheet to EnzymeML conversion Download the EnzymeML spreadsheet template and fill in your experimental data. Once done, you can use our template conversion page to convert your spreadsheet to an EnzymeML document.
-For further information, please contact us or investiagte the example sheet that is included in the EnzymeML spreadsheet template archive.</description>
     </item>
     
     <item>
@@ -274,20 +263,6 @@ Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rothe
       
       <guid>http://EnzymeML.org/team/andreas-weidemann/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Community integrations</title>
-      <link>http://EnzymeML.org/tools/bycommunity/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/bycommunity/</guid>
-      <description>Find tools developed by the community, which integrate the EnzymeML data model and software in various applications, such as databases or kinetic modeling.
-BioCatHub Content soon to be added&amp;hellip;
-SABIO-RK upload Content soon to be added&amp;hellip;
-STRENDA-DB upload Content soon to be added&amp;hellip;
-Dataverse integration Content soon to be added&amp;hellip;
-Kinetic modeling via Jupyter Content soon to be added&amp;hellip;</description>
     </item>
     
     <item>

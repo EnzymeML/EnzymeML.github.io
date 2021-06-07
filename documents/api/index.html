@@ -145,21 +145,6 @@ from reactions and vice versa. This allows an application to load multiple <stro
 and filter them by user-defined properties, such as all reactions in which a certain reactant 
 participates.</p>
 <p>All functions were optimised to require no further knowledge of <a href="https://www.python.org/">Python</a>, such that users only have to adapt to the EnzymeML syntax.</p>
-<h2 id="application-specific-thin-api-layer">Application-specific thin API layer</h2>
-<p>In order to make <strong>EnzymeML</strong> accessible to a specific application, a thin API layer maps between 
-the object layers of the API and of the application. An application-specific thin API layer can either 
-be used to import or export EnzymeML documents.</p>
-<p>To create a thin API layer, two templates are provided which can be customised to read or write relevant 
-attributes. The <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/templates/TL_ImportTemplate.ipynb">first template</a> 
-contains all code needed to extract information contained in an EnzymeML document. The user will decide 
-which code is needed for the specific application and will do the mapping. The 
-<a href="https://github.com/EnzymeML/PyEnzyme/tree/main/templates/TL_ExportTemplate.ipynb">second template</a> provides 
-all code needed to create an <strong>EnzymeML</strong> document.</p>
-<p>The easy-to-use syntax allows fast and easy access to all information of an <strong>EnzymeML</strong> document as 
-well as its creation.  In the <a href="/documents/cases">Use cases</a>, we demonstrate the usage of the API for 
-the integration of three applications: <a href="http://copasi.org/">COPASI</a>, 
-<a href="https://www.beilstein-strenda-db.org/strenda/index.xhtml">STRENDA DB</a> and
-<a href="http://sabio.h-its.org/">SABIO-RK</a>.</p>
 </div>
     </div>
   </div>

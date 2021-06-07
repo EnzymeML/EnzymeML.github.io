@@ -133,20 +133,37 @@
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h1 id="what-is-enzymeml">What is EnzymeML?</h1>
-<p>EnzymeML is a free and open standard XML-based interchange format for data on enzyme-catalyzed reactions. 
-The purpose of EnzymeML is to store and exchange enzyme kinetics data between instruments, software tools, 
-and databases. EnzymeML will allow scientists to share their experimental protocols and results even if 
-they are using different instruments, electronic laboratory notebooks, or databases. EnzymeML is compatible 
-with the Systems Biology Markup Language (SBML). It continues to be evolved and expanded by an international 
-community.</p>
+        <h2 id="what-is-enzymeml">What is EnzymeML?</h2>
+<p>EnzymeML is a free and open standard XML-based interchange format for comprehensive data on enzyme-catalyzed reactions. The purpose of EnzymeML is to store and exchange enzyme kinetics data between electronic lab notebooks, software tools, and databases. An EnzymeML document contains four types of data</p>
+<ul>
+<li>
+<p>Experimental reaction conditions (protein sequence and concentration of enzyme; chemical structure and initial concentrations of substrates, products, inhibitors, additives; temperature; buffer and pH)</p>
+</li>
+<li>
+<p>Measured time courses of the concentration of substrates and products</p>
+</li>
+<li>
+<p>One (or more) kinetic model to analyse the time course data data</p>
+</li>
+<li>
+<p>Estimated kinetic parameters</p>
+</li>
+</ul>
+<p>Thus, an EnzymeML documents contains the measured data and the modelling results of a series of experiments, e.g. time course data for different initial substrate concentrations and their analysis by a Michaelis-Menten model.</p>
+<p>EnzymeML is compatible with the Systems Biology Markup Language (SBML). It continues to be evolved and expanded by an international community and is supported by the STRENDA Commission.</p>
+<h2 id="how-to-write-and-read-enzymeml">How to write and read EnzymeML?</h2>
+<p>The typical user is not expected to read or write EnzymeML documents directly, but to use software to generate EnzymeML documents, which are then used as a standardised exchange format to transfer data between applications. Therefore, an Application Programming Interface (API) was developed as a RESTful Web service to enable tools for data acquisition, data modelling, or data publication to read, write, and edit EnzymeML documents. The tools communicate with the RESTful API by HTTP, JSON, and XML. An EnzymeML document is either a file (an OMEX archive which contains XML and CSV files) or a dataset in an EnzymeML Dataverse (a generic open-source data repository system with more than 60 installations worldwide).</p>
+<p>EnzymeML is part of the FAIR biotope</p>
+<ul>
+<li><a href="https://fairsharing.org/search/?q=enzymeml">FAIRsharing</a></li>
+</ul>
 
       </div>
       
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img
           class="intro-image intro-image-absolute"
-          src="/images/illustrations/EnzymeML-document.png" />
+          src="/images/about_overview.png" />
       </div>
       
     </div>
