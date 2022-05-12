@@ -33,9 +33,9 @@ The reference for the preprint is:
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
-Presently, we have three application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
- TL_COPASI TL_STRENDA TL_BioCatNet  </description>
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+Presently, we have three application-specific thin API layers COPASI, PySCeS and STRENDA DB. They are available to download in the links below:
+ TL_COPASI TL_PySCeS TL_STRENDA  </description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ It builds on the well-established Systems Biology Markup Language (SBML) and inc
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>An application programming interface (API) which consists of the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
@@ -178,8 +178,8 @@ COPASI COPASI is a software application for simulation and analysis of biochemic
       
       <guid>http://EnzymeML.org/downloads/validators/</guid>
       <description>EnzymeML has specific validation tool guarantees compatibility with SBML. Further application-specific validation tools have been added, such as a STRENDA DB validator to check for compatibility with the STRENDA Guidelines.
-The validators are part of application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
- TL_COPASI TL_STRENDA TL_BioCatNet  </description>
+The validators are part of application-specific thin API layers COPASI, PySCeS and STRENDA DB. They are available to download in the links below:
+ TL_COPASI TL_PySCeS TL_STRENDA  </description>
     </item>
     
     <item>

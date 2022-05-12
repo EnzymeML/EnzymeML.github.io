@@ -13,7 +13,7 @@
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 Presently, we have three application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
  TL_COPASI TL_STRENDA TL_BioCatNet  </description>
     </item>
