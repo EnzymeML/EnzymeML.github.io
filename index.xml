@@ -6,7 +6,7 @@
     <description>Recent content in Home on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EnzymeML 1.0 released 2020-11-02</title>
       <link>http://EnzymeML.org/news/enzymeml_1-0/</link>
@@ -15,7 +15,7 @@
       <guid>http://EnzymeML.org/news/enzymeml_1-0/</guid>
       <description>The specifications for EnzymeML 1.0 are now available from the Downloads page. Additionally, EnzymeML team submitted for our first paper for publication.
 The reference for the preprint is:
- Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. https://www.EnzymeML.org  You can download our preprint and supporting information.</description>
+Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology. https://www.EnzymeML.org You can download our preprint and supporting information.</description>
     </item>
     
     <item>
@@ -33,9 +33,9 @@ The reference for the preprint is:
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
-Presently, we have three application-specific thin API layers COPASI, PySCeS and STRENDA DB. They are available to download in the links below:
- TL_COPASI TL_PySCeS TL_STRENDA  </description>
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+Presently, we have three application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
+TL_COPASI TL_STRENDA TL_BioCatNet </description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ It builds on the well-established Systems Biology Markup Language (SBML) and inc
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/documents/api/</guid>
-      <description>An application programming interface (API) which consists of the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
@@ -120,6 +120,16 @@ Creating EnzymeML documents from spreadsheets In the absence of a standard forma
     </item>
     
     <item>
+      <title>EnzymeML Template</title>
+      <link>http://EnzymeML.org/tools/template/</link>
+      <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/tools/template/</guid>
+      <description>Tutorial and best practices The EnzymeML Team provides a template in the commonly used spreadsheet format, which was designed to facilitate the report of biocatalytic and enzymatic data using EnzymeML. The template was designed such that valid OMEX archives can be created by submitting the resulting spreadsheet to the official conversion page found here.
+This document will further explain the workflow and how to use the spreadsheet by giving best practices.</description>
+    </item>
+    
+    <item>
       <title>Santiago Schnell</title>
       <link>http://EnzymeML.org/team/santiago-schnell/</link>
       <pubDate>Thu, 08 Oct 2020 10:47:58 +1000</pubDate>
@@ -155,9 +165,9 @@ EnzymeML documents EnzymeML follows the Standards of Reporting Enzymology Data (
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/contribute/</guid>
-      <description>How can you contribute to EnzymeML?   More applications which read and write EnzymeML
+      <description>How can you contribute to EnzymeML? More applications which read and write EnzymeML
 As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without need of reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write EnzymeML (find technical details here).
-  Extension of the data model
+Extension of the data model
 Currently, an EnzymeML document contains information about reaction conditions (temperature, buffer, additives) and about the enzyme, the substrates, and the products.</description>
     </item>
     
@@ -178,8 +188,8 @@ COPASI COPASI is a software application for simulation and analysis of biochemic
       
       <guid>http://EnzymeML.org/downloads/validators/</guid>
       <description>EnzymeML has specific validation tool guarantees compatibility with SBML. Further application-specific validation tools have been added, such as a STRENDA DB validator to check for compatibility with the STRENDA Guidelines.
-The validators are part of application-specific thin API layers COPASI, PySCeS and STRENDA DB. They are available to download in the links below:
- TL_COPASI TL_PySCeS TL_STRENDA  </description>
+The validators are part of application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
+TL_COPASI TL_STRENDA TL_BioCatNet </description>
     </item>
     
     <item>
@@ -189,8 +199,8 @@ The validators are part of application-specific thin API layers COPASI, PySCeS a
       
       <guid>http://EnzymeML.org/documents/publications/</guid>
       <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
-  Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020).</description>
+Original Peer Review Papers Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
+Range J, Halupczok C, Lohmann J, Swainston N, Kettner C, Bergmann FT, Weidemann A, Wittig U, Schnell S, Pleiss J (2020). EnzymeML – a data exchange format for biocatalysis and enzymology.</description>
     </item>
     
     <item>

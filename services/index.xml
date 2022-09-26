@@ -55,9 +55,9 @@ EnzymeML documents EnzymeML follows the Standards of Reporting Enzymology Data (
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/contribute/</guid>
-      <description>How can you contribute to EnzymeML?   More applications which read and write EnzymeML
+      <description>How can you contribute to EnzymeML? More applications which read and write EnzymeML
 As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without need of reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write EnzymeML (find technical details here).
-  Extension of the data model
+Extension of the data model
 Currently, an EnzymeML document contains information about reaction conditions (temperature, buffer, additives) and about the enzyme, the substrates, and the products.</description>
     </item>
     
