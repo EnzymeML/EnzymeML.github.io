@@ -13,7 +13,7 @@
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/api/</guid>
-      <description>An application programming interface (API) which consists of two libraries, the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>An application programming interface (API) the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 Presently, we have three application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
 TL_COPASI TL_STRENDA TL_BioCatNet </description>
     </item>
@@ -24,18 +24,8 @@ TL_COPASI TL_STRENDA TL_BioCatNet </description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/pyenzyme/</guid>
-      <description>The Python library PyEnzyme is part of the EnzymeML application programming interface (API). It supports reading, writing, editing, merging, and visualization of EnzymeML documents.
+      <description>The Python library PyEnzyme is part of the EnzymeML application programming interface (API). It supports reading, writing, editing and visualization of EnzymeML documents.
 The library JEnzyme was built based on its respective SBML counterparts libsbml. It can be downloaded here.</description>
-    </item>
-    
-    <item>
-      <title>JEnzyme</title>
-      <link>http://EnzymeML.org/downloads/jenzyme/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/downloads/jenzyme/</guid>
-      <description>The Java library JEnzyme is part of the EnzymeML application programming interface (API). It supports reading, writing, editing, merging, and visualization of EnzymeML documents.
-The library JEnzyme was built based on its respective SBML counterparts JSBML. It can be downloaded here.</description>
     </item>
     
     <item>
@@ -44,8 +34,8 @@ The library JEnzyme was built based on its respective SBML counterparts JSBML. I
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/downloads/validators/</guid>
-      <description>EnzymeML has specific validation tool guarantees compatibility with SBML. Further application-specific validation tools have been added, such as a STRENDA DB validator to check for compatibility with the STRENDA Guidelines.
-The validators are part of application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
+      <description>EnzymeML has a specific validation tool that guarantees compatibility with SBML. Further application-specific validation tools have been added, such as a STRENDA DB validator to check for compatibility with the STRENDA Guidelines.
+The validators are part of application-specific thin API layers COPASI, STRENDA DB andSABIO-RK. They are available to download in the links below:
 TL_COPASI TL_STRENDA TL_BioCatNet </description>
     </item>
     
