@@ -13,8 +13,8 @@
       <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
       
       <guid>http://EnzymeML.org/tools/template/</guid>
-      <description>Tutorial and best practices The EnzymeML Team provides a template in the commonly used spreadsheet format, which was designed to facilitate the report of biocatalytic and enzymatic data using EnzymeML. The template was designed such that valid OMEX archives can be created by submitting the resulting spreadsheet to the official conversion page found here.
-This document will further explain the workflow and how to use the spreadsheet by giving best practices.</description>
+      <description>The EnzymeML Team provides a template in the commonly used spreadsheet format, which was designed to facilitate the report of biocatalytic and enzymatic data using EnzymeML. The template was designed such that valid OMEX archives can be created by submitting the resulting spreadsheet to the official conversion page found here.
+This document will further explain the workflow and how to use the spreadsheet by giving best practices. For this, the next paragraph will further elucidate how to acquire the template, how to fill in data and finally how to convert it to EnzymeML.</description>
     </item>
     
   </channel>
