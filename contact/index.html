@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-contact'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -152,10 +163,10 @@
         <div class="content mt-4"><h2 id="enzymeml-project-contacts">EnzymeML Project Contacts</h2>
 <p>For questions, suggestions, or participation in the EnzymeML project, please contact the project coordinators:</p>
 <p><a href="mailto:juergen.pleiss@itb.uni-stuttgart.de">Jürgen Pleiss</a>, <a href="mailto:ckettner@beilstein-institut.de">Carsten Kettner</a>, <a href="mailto:frank.bergmann@bioquant.uni-heidelberg.de">Frank Bergmann</a> or <a href="mailto:santiago.schnell@nd.edu">Santiago Schnell</a>.</p>
-<h3 id="strenda-guidelines">STRENDA Guidelines</h3>
+<h2 id="strenda-guidelines">STRENDA Guidelines</h2>
 <p>If you are interested to learn more about the <a href="https://www.beilstein-institut.de/en/projects/strenda/guidelines/">STRENDA Guidelines</a>,
 please contact <a href="mailto:ckettner@beilstein-institut.de">Carsten Kettner</a>.</p>
-<h3 id="website">Website</h3>
+<h2 id="website">Website</h2>
 <p>Please contact our <a href="mailto:webmaster@enzymeml.org">webmaster</a>. This website was developed by modifying the <a href="https://themes.gohugo.io/hugo-serif-theme/">Hugo</a> Serif theme](<a href="https://themes.gohugo.io/hugo-serif-theme/">https://themes.gohugo.io/hugo-serif-theme/</a>) by <a href="https://www.zerostatic.io">zerostatic</a>.</p>
 </div>
       </div>

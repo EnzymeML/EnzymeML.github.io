@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>What is EnzymeML on EnzymeML Project</title>
+    <title>About on EnzymeML Project</title>
     <link>http://EnzymeML.org/services/</link>
-    <description>Recent content in What is EnzymeML on EnzymeML Project</description>
+    <description>Recent content in About on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:15:34 +1000</lastBuildDate><atom:link href="http://EnzymeML.org/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>For experimentalists</title>
+      <title>For Experimentalists</title>
       <link>http://EnzymeML.org/services/experimentalists/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
@@ -19,7 +19,7 @@ It builds on the well-established Systems Biology Markup Language (SBML) and inc
     </item>
     
     <item>
-      <title>For modelers</title>
+      <title>For Modelers</title>
       <link>http://EnzymeML.org/services/modelers/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
@@ -29,7 +29,7 @@ An EnzymeML document provides the complete experimental information including th
     </item>
     
     <item>
-      <title>For database providers</title>
+      <title>For Database Providers</title>
       <link>http://EnzymeML.org/services/database/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
@@ -40,25 +40,13 @@ Currently implemented functionalities Validation of minimal requirements and upl
     </item>
     
     <item>
-      <title>For software developers</title>
+      <title>For Software Developers</title>
       <link>http://EnzymeML.org/services/software/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>http://EnzymeML.org/services/software/</guid>
       <description>Want to implement EnzymeML read and write functionalities in your software? Here you have some ideas to inspire your team.
 EnzymeML documents EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) Guidelines, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (SBML) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition here).</description>
-    </item>
-    
-    <item>
-      <title>For the community</title>
-      <link>http://EnzymeML.org/services/contribute/</link>
-      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/services/contribute/</guid>
-      <description>How can you contribute to EnzymeML? More applications that read and write EnzymeML
-As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without the need for reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write EnzymeML (find technical details here).
-Extension of the data model
-Currently, an EnzymeML document contains information about reaction conditions (temperature, buffer, additives) and the enzyme, the substrates, and the products.</description>
     </item>
     
   </channel>

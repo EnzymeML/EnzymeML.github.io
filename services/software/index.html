@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>For software developers - EnzymeML Project</title>
+  <title>For Software Developers - EnzymeML Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="/favicon-32x32.svg">
@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-services-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -133,7 +144,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">For software developers</h1>
+        <h1 class="title">For Software Developers</h1>
         <div class="content"><p>Want to implement <strong>EnzymeML</strong> read and write functionalities in your software? Here you have some ideas to inspire your team.</p>
 <h2 id="enzymeml-documents">EnzymeML documents</h2>
 <p><strong>EnzymeML</strong> follows the Standards of Reporting Enzymology Data (STRENDA) <a href="https://www.beilstein-institut.de/en/projects/strenda/guidelines/">Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. <strong>EnzymeML</strong> is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/xsd">here</a>). The measured time course of substrate or product concentrations is stored in a comma-separated value (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a></p>

@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-team-list'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -133,33 +144,18 @@
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h1 id="partners">Partners</h1>
-<h2 id="experiments">Experiments</h2>
-<p>Andreas Bommarius (Georgia Tech, Atlanta, USA)</p>
-<p>Frank Hollmann (TU Delft, The Netherlands)</p>
-<p>Tukayi Kudanga (DTU Durban, South Africa)</p>
-<p>Marilize Le Roes-Hill (CPUT, Cape Town, South Africa)</p>
-<p>Marina Lotti (University of Milano-Bicocca, Italy)</p>
-<p>Caroline Paul (TU Delft, The Netherlands)</p>
-<p>Brett Pletschke (Rhodes University, Grahamstown, South Africa)</p>
-<p>Dörte Rother (Forschungszentrum Jülich, Germany)</p>
-<p>John Woodley (DTU, Denmark)</p>
-<h2 id="modeling">Modeling</h2>
-<p>William Finnigan (University of Manchester, UK): RetroBioCat</p>
-<p>Nicole Radde (Universität Stuttgart, Germany)</p>
-<p>Johann Rohwer (University of Stellenbosch, South Africa): PySCeS</p>
-<p>Frank Perrella (FDA-CDER, USA): BestCurvFit</p>
-<h2 id="database">Database</h2>
-<p>Dorothea Iglezakis (University of Stuttgart, Germany) : Dataverse</p>
-<p>Ulrike Wittig (Heidelberg Institute for Theoretical Studies, Germany): SABIO-RK</p>
-<h2 id="software-development">Software development</h2>
-<p>Neil Swainston (University of Liverpool, UK)</p>
-<p>Andreas Weidemann (Heidelberg Institute for Theoretical Studies, Germany)</p>
-<p>Andrew McDonald (Beilstein-Institut, Frankfurt, Germany)</p>
-<p>Nicole Jung (KIT Karlsruhe, Germany): Chemotion</p>
-<h1 id="project-team">Project Team</h1>
-<p>The EnzymeML Project Team is responsible for the development of the EnzymeML standard, specifications and administrating EnzymeML community resources.</p>
+        <h1 id="team-and-partners">Team and partners</h1>
+<p>The EnzymeML project is a global, cross-disciplinary initiative that is propelled by collaboration and interconnectedness among the international community, resulting in a continuously expanding EnzymeML community. To ensure optimal organization, the EnzymeML Project Core Team assumes responsibility for the technical advancement of the EnzymeML standard and specifications, as well as overseeing the administration of community resources.</p>
+<div class="call-box-bottom pt-2">
+    <a href="/partners" target="_blank" class="button">Our Partners</a>
+</div>
 
+      </div>
+      
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img
+          class="intro-image"
+          src="/images/illustrations/team.svg" />
       </div>
       
     </div>
@@ -220,7 +216,7 @@ Germany.</p>
     
     <a target="_blank" href="http://www.med.umich.edu/schnell-lab/">Website</a> 
   </div>
-  <div class="team-content">    <p>Chair, <a href="https://medicine.umich.edu/dept/molecular-integrative-physiology">Department of Molecular &amp; Integrative Physiology</a>, <a href="https://medicine.umich.edu/medschool/home">University of Michigan Medical School</a>, USA.</p>
+  <div class="team-content">    <p>William K. Warren Foundation Dean, <a href="https://science.nd.edu/">College of Science</a>, <a href="https://www.nd.edu/">University of Notre Dame</a>, USA</p>
 </div>
 </div></div>
     
@@ -237,30 +233,14 @@ Germany.</p>
     
     <a target="_blank" href="https://www.beilstein-institut.de/en/projects/strenda/">Website</a> 
   </div>
-  <div class="team-content">    <p><a href="https://www.beilstein-institut.de/en/projects/strenda/commission/">STRENDA Commission</a> Coordinator at
-the <a href="https://www.beilstein-institut.de/en/">Beilstein-Institut</a>, Frankfurt am Main, Germany.</p>
+  <div class="team-content">    <p><a href="https://www.beilstein-institut.de/en/projects/strenda/commission/">STRENDA Commission</a> Coordinator, <a href="https://www.beilstein-institut.de/en/">Beilstein-Institut</a>, Germany.</p>
 </div>
 </div></div>
     
     <div class="col-12 col-md-6 mb-2"><div class="team team-summary team-summary-large">
   
   <div class="team-image">
-    <img alt="Photo of Hannah Dienhart" class="img-fluid mb-2" src="/images/avatar.jpg" />
-  </div>
-  
-  <div class="team-meta">
-    <h2 class="team-name">Hannah Dienhart</h2>
-    <p class="team-description">Developer</p>
-    
-    
-  </div>
-  <div class="team-content">    </div>
-</div></div>
-    
-    <div class="col-12 col-md-6 mb-2"><div class="team team-summary team-summary-large">
-  
-  <div class="team-image">
-    <img alt="Photo of Jan Range" class="img-fluid mb-2" src="/images/team/jan-range.jfif" />
+    <img alt="Photo of Jan Range" class="img-fluid mb-2" src="/images/team/jan-range.jpeg" />
   </div>
   
   <div class="team-meta">
@@ -270,28 +250,14 @@ the <a href="https://www.beilstein-institut.de/en/">Beilstein-Institut</a>, Fran
     <a target="_blank" href="https://de.linkedin.com/in/jan-range-880056156">LinkedIn</a> 
     
   </div>
-  <div class="team-content">    </div>
+  <div class="team-content">    <p>Research Software Engineer, <a href="https://www.simtech.uni-stuttgart.de/">Cluster Of Excellence &ldquo;SimTech&rdquo;</a>, <a href="https://www.uni-stuttgart.de/en/">University of Stuttgart</a>, Germany</p>
+</div>
 </div></div>
     
     <div class="col-12 col-md-6 mb-2"><div class="team team-summary team-summary-large">
   
   <div class="team-image">
-    <img alt="Photo of Simone Lauterbach" class="img-fluid mb-2" src="/images/avatar.jpg" />
-  </div>
-  
-  <div class="team-meta">
-    <h2 class="team-name">Simone Lauterbach</h2>
-    <p class="team-description">Developer</p>
-    
-    
-  </div>
-  <div class="team-content">    </div>
-</div></div>
-    
-    <div class="col-12 col-md-6 mb-2"><div class="team team-summary team-summary-large">
-  
-  <div class="team-image">
-    <img alt="Photo of Stephan Malzacher" class="img-fluid mb-2" src="/images/avatar.jpg" />
+    <img alt="Photo of Stephan Malzacher" class="img-fluid mb-2" src="/images/team/stephan-malzacher.png" />
   </div>
   
   <div class="team-meta">
@@ -300,7 +266,8 @@ the <a href="https://www.beilstein-institut.de/en/">Beilstein-Institut</a>, Fran
     
     
   </div>
-  <div class="team-content">    </div>
+  <div class="team-content">    <p>Research Software Engineer, <a href="https://www.fz-juelich.de/en/ibg/ibg-1/research/systems-biotechnology/synthetic-enzyme-cascades">Institute of Bio- and Geosciences</a>, <a href="https://www.fz-juelich.de/en">Foschungszentrum Jülich</a>, Germany</p>
+</div>
 </div></div>
     
   </div>

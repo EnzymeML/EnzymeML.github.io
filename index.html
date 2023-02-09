@@ -14,9 +14,9 @@
 <meta property="og:url" content="http://EnzymeML.org/" />
 <meta property="og:image" content="illustrations/logo/enzymeml.jpg" />
 <meta property="og:description" content="EnzymeML is a free and open standard based XML markup interchange format for enzyme kinetics. " />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@EnzymeML" />
-<meta name="twitter:creator" content="@EnzymeML" />
+<meta name="twitter:card" content="" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
 
   <link rel="icon" type="image/png" href="/favicon-32x32.svg">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -24,33 +24,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-home'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -63,6 +68,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -78,7 +89,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -87,10 +98,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -98,13 +109,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -119,6 +123,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -143,120 +154,57 @@
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h2 id="enzymeml">EnzymeML</h2>
-<p>EnzymeML is a free and open XML-based format for the standardized monitoring and exchange of data on enzyme-catalyzed reactions according to the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.</p>
-
-        
-        <div class="call">
-  <div class="call-box-top">
-    
-    
-    
-    <div class="call-github"><strong>Source code: </strong>
-      <a href="https://github.com/EnzymeML">
-        github.com/EnzymeML
-      </a>
-    </div>
-    
-  </div>
-    
-      <div class="call-box-bottom">
-        <a href="/contact" class="button">Contact</a>
-      </div>
-    
+      <div class="intro-text-part col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h1 id="what-is-enzymeml">What is EnzymeML?</h1>
+<p>EnzymeML is a freely accessible, open standard XML-based format, imbued with the principles of data fairness and transparency. Its primary purpose is to facilitate the storage and transfer of enzyme kinetics data across a diverse range of electronic laboratory notebooks, software tools, and databases.</p>
+<div class="call-box-bottom pt-2">
+    <a href="/services" target="_blank" class="button">Learn more</a>
 </div>
 
         
       </div>
       
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt=Home class="intro-image intro-image-absolute intro-image-hide-mobile" src="/images/illustrations/schema.jpg" />
+        <img alt=Home class="intro-image intro-image-hide-mobile" src="/images/illustrations/data_report.svg" />
       </div>
       
     </div>
   </div>
 </div>
 
-
-
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      
-      
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/experimentalists/">For experimentalists</a>
-    </h2>
-    <p>How can EnzymeML help you to manage your experimental data?
-EnzymeML was developed to support data acquisition, data…</p>
-  </div>
-</div>
-
-      </div>
-      
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/modelers/">For modelers</a>
-    </h2>
-    <p>How can EnzymeML help you develop, implement and analyze models?
-An EnzymeML document provides the complete experimental…</p>
-  </div>
-</div>
-
-      </div>
-      
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/database/">For database providers</a>
-    </h2>
-    <p>How can EnzymeML help you to publish results and to exchange data?
-EnzymeML is a flexible data model for biocatalysis…</p>
-  </div>
-</div>
-
-      </div>
-      
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/software/">For software developers</a>
-    </h2>
-    <p>Want to implement EnzymeML read and write functionalities in your software? Here you have some ideas to inspire your…</p>
-  </div>
-</div>
-
-      </div>
-      
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/contribute/">For the community</a>
-    </h2>
-    <p>How can you contribute to EnzymeML? More applications that read and write EnzymeML
-As a standardized exchange format for…</p>
-  </div>
-</div>
-
-      </div>
-      
-    </div>
+<div id="partners-container">
+  
+  <div class="container pb-10" style="width: 60%">
     <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="/documents/">View All Documents</a>
+      <div class="order-md-2 justify-content-center pr-1">
+        <img src="/images/partners/simtech.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 justify-content-center pr-1">
+        <img src="/images/partners/stuttgart.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 justify-content-center">
+        <img src="/images/partners/notre-dame.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 justify-content-center">
+        <img src="/images/partners/heidelberg.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 justify-content-center">
+        <img src="/images/partners/stellenbosch.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 justify-content-center">
+        <img src="/images/partners/georgia-tech.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 position-relative">
+        <img src="/images/partners/beilstein.png" width="200px"/> 
+      </div>
+      <div class="order-md-2 position-relative">
+        <img src="/images/partners/dtu-denmark.png" width="200px"/> 
       </div>
     </div>
   </div>
 </div>
+
+
 
 
 

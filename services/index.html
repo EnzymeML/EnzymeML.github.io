@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>What is EnzymeML - EnzymeML Project</title>
+  <title>About - EnzymeML Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="/favicon-32x32.svg">
@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-services-list'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -132,103 +143,68 @@
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <h2 id="what-is-enzymeml">What is EnzymeML?</h2>
-<p>EnzymeML is a free and open standard XML-based interchange format for comprehensive data on enzyme-catalyzed reactions. The purpose of EnzymeML is to store and exchange enzyme kinetics data between electronic lab notebooks, software tools, and databases. An EnzymeML document contains four types of data</p>
-<ul>
-<li>
-<p>Experimental reaction conditions (protein sequence and concentration of enzyme; chemical structure and initial concentrations of substrates, products, inhibitors, additives; temperature; buffer and pH)</p>
-</li>
-<li>
-<p>Measured time courses of the concentration of substrates and products</p>
-</li>
-<li>
-<p>One (or more) kinetic models to analyze the time course data data</p>
-</li>
-<li>
-<p>Estimated kinetic parameters</p>
-</li>
-</ul>
-<p>Thus, an EnzymeML document contains the measured data and the modeling results of a series of experiments, e.g. time course data for different initial substrate concentrations and their analysis by a Michaelis-Menten model.</p>
-<p>EnzymeML is compatible with the Systems Biology Markup Language (SBML). It continues to be evolved and expanded by an international community and is supported by the STRENDA Commission.</p>
-<h2 id="how-to-write-and-read-enzymeml">How to write and read EnzymeML?</h2>
-<p>The typical user is not expected to read or write EnzymeML documents directly, but to use software to generate EnzymeML documents, which are then used as a standardized exchange format to transfer data between applications. Therefore, an Application Programming Interface (API) was developed as a RESTful Web service to enable tools for data acquisition, data modeling, or data publication to read, write, and edit EnzymeML documents. The tools communicate with the RESTful API by HTTP, JSON, and XML. An EnzymeML document is either a file (an OMEX archive that contains XML and CSV files) or a dataset in an EnzymeML Dataverse (a generic open-source data repository system with more than 60 installations worldwide).</p>
-<p>EnzymeML is part of the FAIR biotope</p>
-<ul>
-<li><a href="https://fairsharing.org/search/?q=enzymeml">FAIRsharing</a></li>
-</ul>
+      <div class="intro-text-part col-md-7 col-lg-6 order-1 order-md-1">
+        <h1 id="enzymeml">EnzymeML</h1>
+<h2 id="a-data-exchange-format-for-biocatalysis-and-enzymology">A data exchange format for biocatalysis and enzymology</h2>
+<p>EnzymeML is a free, open XML-based format that adheres to the FAIR principles and serves as a standard for the systematic monitoring and exchange of data pertaining to enzyme-catalyzed reactions. Its primary objective is to facilitate the storage and transfer of enzyme kinetics data across electronic laboratory notebooks, software tools, and databases.</p>
+<p>An EnzymeML document encompasses a comprehensive collection of data, including both the results of experimental measurements and the modeling outcomes. This may include time course data derived from a series of experiments with varying initial substrate concentrations, analyzed using the Michaelis-Menten model.</p>
+<p>EnzymeML is compatible with the <a href="https://sbml.org/">Systems Biology Markup Language (SBML)</a> and continues to be developed and extended by an international community, with support from the <a href="https://www.beilstein-strenda-db.org/">STRENDA</a> Commission.</p>
 
       </div>
-      
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img
-          class="intro-image intro-image-absolute"
-          src="/images/about_overview.png" />
+      <div class="col-md-5 col-lg-6 order-2 order-md-2 position-relative">
+        <div class="side-links container pt-3 pt-md-1 pb-5">
+          <div class="row">
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/services/experimentalists/">For Experimentalists</a>
+    </h2>
+    <p>How can EnzymeML help you to manage your experimental data?
+EnzymeML was developed to support data …</p>
+  </div>
+</div>
+</div>
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/services/modelers/">For Modelers</a>
+    </h2>
+    <p>How can EnzymeML help you develop, implement and analyze models?
+An EnzymeML document provides the …</p>
+  </div>
+</div>
+</div>
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/services/database/">For Database Providers</a>
+    </h2>
+    <p>How can EnzymeML help you to publish results and to exchange data?
+EnzymeML is a flexible data model …</p>
+  </div>
+</div>
+</div>
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/services/software/">For Software Developers</a>
+    </h2>
+    <p>Want to implement EnzymeML read and write functionalities in your software? Here you have some ideas …</p>
+  </div>
+</div>
+</div>
+            
+          </div>
+        </div>
       </div>
-      
     </div>
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    
-    <div class="col-12 col-md-6 mb-3"><div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/experimentalists/">For experimentalists</a>
-    </h2>
-    <p>How can EnzymeML help you to manage your experimental data?
-EnzymeML was developed to support data acquisition, data…</p>
-  </div>
-</div>
-</div>
-    
-    <div class="col-12 col-md-6 mb-3"><div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/modelers/">For modelers</a>
-    </h2>
-    <p>How can EnzymeML help you develop, implement and analyze models?
-An EnzymeML document provides the complete experimental…</p>
-  </div>
-</div>
-</div>
-    
-    <div class="col-12 col-md-6 mb-3"><div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/database/">For database providers</a>
-    </h2>
-    <p>How can EnzymeML help you to publish results and to exchange data?
-EnzymeML is a flexible data model for biocatalysis…</p>
-  </div>
-</div>
-</div>
-    
-    <div class="col-12 col-md-6 mb-3"><div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/software/">For software developers</a>
-    </h2>
-    <p>Want to implement EnzymeML read and write functionalities in your software? Here you have some ideas to inspire your…</p>
-  </div>
-</div>
-</div>
-    
-    <div class="col-12 col-md-6 mb-3"><div class="service service-summary">
-  <div class="service-content">
-    <h2 class="service-title">
-      <a href="http://EnzymeML.org/services/contribute/">For the community</a>
-    </h2>
-    <p>How can you contribute to EnzymeML? More applications that read and write EnzymeML
-As a standardized exchange format for…</p>
-  </div>
-</div>
-</div>
-    
-  </div>
-</div>
 
   </div>
 

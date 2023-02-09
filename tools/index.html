@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
-<body class='page page-default-list'>
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
+<body class='page page-services-list'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -132,39 +143,58 @@
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        <p>The EnzymeML <a href="/team/">Team</a> produces software libraries and some specific software tools for working with EnzymeML.
-We are partnering with a number of third-party packages, which will support EnzymeML.  You can visit the
+      <div class="col-md-7 col-lg-6 order-1 order-md-1">
+        <h1 id="tools">Tools</h1>
+<p>The EnzymeML <a href="/team/">Team</a> produces software libraries and some specific software tools for working with EnzymeML.
+We are partnering with several third-party packages, which will support EnzymeML.  You can visit the
 <a href="/documents/cases/">Use cases</a> page to find out more about the first systems adopting EnzymeML.</p>
-<h2 id="spreadsheet-to-enzymeml-conversion">Spreadsheet to EnzymeML conversion</h2>
-<p>Download the <a href="https://github.com/EnzymeML/PyEnzyme/raw/main/templates/EnzymeML_Template.xlsm">EnzymeML spreadsheet template</a> and fill in your experimental data. Once done, you can use our <a href="https://enzymeml.sloppy.zone/template/upload">template conversion page</a> to convert your spreadsheet to an EnzymeML document.</p>
-<p>For further information, please contact us or investigate the <a href="https://github.com/EnzymeML/PyEnzyme/raw/main/templates/EnzymeML_Template_Example.xlsm">EnzymeML</a> spreadsheet example](<a href="https://github.com/EnzymeML/PyEnzyme/raw/main/templates/EnzymeML_Template_Example.xlsm)">https://github.com/EnzymeML/PyEnzyme/raw/main/templates/EnzymeML_Template_Example.xlsm)</a>.</p>
-<h2 id="pyenzyme">PyEnzyme</h2>
-<p>General software for reading, writing and editing EnzymeML as well as high-level functionalities such as DataFrame raw data export and data validation.</p>
-<p>Find it on <a href="https://github.com/EnzymeML/PyEnzyme">GitHub</a> and <a href="https://pypi.org/project/PyEnzyme/">PyPi</a></p>
-<h2 id="rest-api">REST-API</h2>
-<p>Our publicly available REST-API offers several endpoints, which provide all tools to handle EnzymeML remotely.</p>
-<p>For more information find the <a href="https://enzymeml.sloppy.zone/">documentation</a> or run your own server instance via our <a href="https://hub.docker.com/r/enzymeml/pyenzyme">Docker image</a>.</p>
+<p>In addition to the tools listed below, you can find scripts and other resources at our GitHub organization.</p>
+<div class="call-box-bottom pt-2">
+    <a href="https://github.com/EnzymeML" target="_blank" class="button">Go to GitHub</a>
+</div>
 
       </div>
-      
+      <div class=" col-md-5 col-lg-6 order-2 order-md-2 position-relative">
+        <div class="container pt-3 pt-md-1 pb-5">
+          <div class="row">
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/tools/pyenzyme/">PyEnzyme</a>
+    </h2>
+    <p>PyEnzyme is a comprehensive software solution for manipulating EnzymeML files. Furthermore, the library incorporates …</p>
+  </div>
+</div>
+</div>
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/tools/template/">EnzymeML Spreadsheet Template</a>
+    </h2>
+    <p>EnzymeML Spreadsheet If writing XML or programming in Python is not your forte, have no fear. Competency in these areas …</p>
+  </div>
+</div>
+</div>
+            
+            <div class="summary col-12 col-md-12 mb-2"><div class="service service-summary">
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="http://EnzymeML.org/tools/rest/">REST-API</a>
+    </h2>
+    <p>We understand the significance of embracing a language-independent methodology for data retrieval and parsing in the …</p>
+  </div>
+</div>
+</div>
+            
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container pt-6 pb-md-12">
-  <div class="row">
-    
-    <div class="col-12 col-md-6 mb-2 "><div class="summary">
-    <h2>
-      <a href="http://EnzymeML.org/tools/template/">EnzymeML Template</a>
-    </h2>
-    <p>The EnzymeML Team provides a template in the commonly used spreadsheet format, which was designed to facilitate the…</p>
-</div>
-</div>
-    
-  </div>
-</div>
 
   </div>
 

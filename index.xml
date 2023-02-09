@@ -8,14 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Sep 2022 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>EnzymeML 1.0 released 2020-11-02</title>
-      <link>http://EnzymeML.org/news/enzymeml_1-0/</link>
-      <pubDate>Mon, 02 Nov 2020 12:33:46 +1000</pubDate>
+      <title>PyEnzyme</title>
+      <link>http://EnzymeML.org/tools/pyenzyme/</link>
+      <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
       
-      <guid>http://EnzymeML.org/news/enzymeml_1-0/</guid>
-      <description>The specifications for EnzymeML 1.0 are now available from the Downloads page. Additionally, the EnzymeML team has already published two articles:
-Range, J., Halupczok, C., Lohmann, J., Swainston, N., Kettner, C., Bergmann, F.T., Weidemann, A., Wittig, U., Schnell, S. and Pleiss, J. (2022), EnzymeML—a data exchange format for biocatalysis and enzymology. FEBS J, 289: 5864-5874. https://doi.org/10.1111/febs.16318
-Lauterbach S, Dienhart H, Range J, Malzacher S, Spöring JD, Rother D, Pinto MF, Martins P, Lagerman CE, Bommarius AS, Vang Høst A, Woodley JM, Ngubane S, Kudanga T, Bergmann FT, Rohwer JM, Iglezakis D, Weidemann A, Wittig U, Kettner C, Swainston N, Schnell S, Pleiss J.</description>
+      <guid>http://EnzymeML.org/tools/pyenzyme/</guid>
+      <description>PyEnzyme is a comprehensive software solution for manipulating EnzymeML files. Furthermore, the library incorporates convenient access to prominent modeling platforms, such as COPASI and PySCeS, enabling a smooth progression from laboratory experiments to kinetic characterization. Additionally, PyEnzyme empowers users to generate aesthetically appealing, publication-quality visualizations, as well as export data to widely utilized formats, such as CSV and JSON.
+The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://EnzymeML.org/documents/publications/</link>
+      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/documents/publications/</guid>
+      <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
+Original Peer Review Papers Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. doi: 10.1002/cite.202055297
+Range, J., Halupczok, C., Lohmann, J., Swainston, N., Kettner, C., Bergmann, F.T., Weidemann, A., Wittig, U., Schnell, S. and Pleiss, J. (2022), EnzymeML—a data exchange format for biocatalysis and enzymology.</description>
     </item>
     
     <item>
@@ -50,7 +60,18 @@ Structure of EnzymeML document An EnzymeML document consists of three file types
     </item>
     
     <item>
-      <title>For experimentalists</title>
+      <title>Tutorial and Documentation</title>
+      <link>http://EnzymeML.org/tools/template/tutorial/</link>
+      <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/tools/template/tutorial/</guid>
+      <description>This document will further explain the workflow and how to use the spreadsheet by giving best practices. For this, the next paragraph will further elucidate how to acquire the template, how to fill in data and finally how to convert it to EnzymeML.
+1. Download the EnzymeML template The EnzymeML template can be downloaded here. Additionally, an example template is provided which demonstrates how a template should be filled.
+Once downloaded, you can open the template with any commonly available spreadsheet application such as Microsoft Excel™ or OpenOffice Calc.</description>
+    </item>
+    
+    <item>
+      <title>For Experimentalists</title>
       <link>http://EnzymeML.org/services/experimentalists/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
@@ -58,16 +79,6 @@ Structure of EnzymeML document An EnzymeML document consists of three file types
       <description>How can EnzymeML help you to manage your experimental data?
 EnzymeML was developed to support data acquisition, data analysis, and sharing of data by providing a standardized exchange format for enzymatic data. EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) Guidelines, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML).
 It builds on the well-established Systems Biology Markup Language (SBML) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters.</description>
-    </item>
-    
-    <item>
-      <title>Application Programming Interface</title>
-      <link>http://EnzymeML.org/documents/api/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/documents/api/</guid>
-      <description>An application programming interface (API) that consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
-API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
     <item>
@@ -81,6 +92,15 @@ The library JEnzyme was built based on its respective SBML counterparts libsbml.
     </item>
     
     <item>
+      <title>REST-API</title>
+      <link>http://EnzymeML.org/tools/rest/</link>
+      <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
+      
+      <guid>http://EnzymeML.org/tools/rest/</guid>
+      <description>We understand the significance of embracing a language-independent methodology for data retrieval and parsing in the present interconnected application ecosystem. In light of this, we have made accessible a publicly available REST-API that incorporates a comprehensive array of endpoints, providing comprehensive EnzymeML handling capabilities. This API allows you to integrate PyEnzyme into your web-based toolkit, regardless of your technology stack, thereby granting you access to all the benefits of PyEnzyme without the need to program in Python.</description>
+    </item>
+    
+    <item>
       <title>Frank T. Bergmann</title>
       <link>http://EnzymeML.org/team/frank-bergmann/</link>
       <pubDate>Thu, 20 Dec 2018 13:44:23 +1000</pubDate>
@@ -90,7 +110,7 @@ The library JEnzyme was built based on its respective SBML counterparts libsbml.
     </item>
     
     <item>
-      <title>For modelers</title>
+      <title>For Modelers</title>
       <link>http://EnzymeML.org/services/modelers/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
@@ -110,26 +130,16 @@ Creating EnzymeML documents from spreadsheets In the absence of a standard forma
     </item>
     
     <item>
-      <title>EnzymeML Template</title>
-      <link>http://EnzymeML.org/tools/template/</link>
-      <pubDate>Thu, 22 Sep 2022 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/tools/template/</guid>
-      <description>The EnzymeML Team provides a template in the commonly used spreadsheet format, which was designed to facilitate the report of biocatalytic and enzymatic data using EnzymeML. The template was designed such that valid OMEX archives can be created by submitting the resulting spreadsheet to the official conversion page found here.
-This document will further explain the workflow and how to use the spreadsheet by giving best practices. For this, the next paragraph will further elucidate how to acquire the template, how to fill in data and finally how to convert it to EnzymeML.</description>
-    </item>
-    
-    <item>
       <title>Santiago Schnell</title>
       <link>http://EnzymeML.org/team/santiago-schnell/</link>
       <pubDate>Thu, 08 Oct 2020 10:47:58 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/santiago-schnell/</guid>
-      <description>Chair, Department of Molecular &amp;amp; Integrative Physiology, University of Michigan Medical School, USA.</description>
+      <description>William K. Warren Foundation Dean, College of Science, University of Notre Dame, USA</description>
     </item>
     
     <item>
-      <title>For database providers</title>
+      <title>For Database Providers</title>
       <link>http://EnzymeML.org/services/database/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
@@ -140,7 +150,7 @@ Currently implemented functionalities Validation of minimal requirements and upl
     </item>
     
     <item>
-      <title>For software developers</title>
+      <title>For Software Developers</title>
       <link>http://EnzymeML.org/services/software/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
@@ -150,15 +160,13 @@ EnzymeML documents EnzymeML follows the Standards of Reporting Enzymology Data (
     </item>
     
     <item>
-      <title>For the community</title>
-      <link>http://EnzymeML.org/services/contribute/</link>
-      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      <title>Application Programming Interface</title>
+      <link>http://EnzymeML.org/documents/api/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
-      <guid>http://EnzymeML.org/services/contribute/</guid>
-      <description>How can you contribute to EnzymeML? More applications that read and write EnzymeML
-As a standardized exchange format for enzymatic data, EnzymeML offers the opportunity to exchange data between different applications without the need for reformatting. We currently collaborate with software developers and database providers to enable their applications to read and write EnzymeML (find technical details here).
-Extension of the data model
-Currently, an EnzymeML document contains information about reaction conditions (temperature, buffer, additives) and the enzyme, the substrates, and the products.</description>
+      <guid>http://EnzymeML.org/documents/api/</guid>
+      <description>An application programming interface (API) that consists of two libraries, the Python library PyEnzyme, and the REST-API, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
+API description The API uses the SBML syntax and naming conventions which are familiar to enzymologists to be implemented into EnzymeML. The basic concept of the two libraries is the usage of multiple dictionaries, in which proteins, reactants, units, and reactions are stored.</description>
     </item>
     
     <item>
@@ -183,32 +191,12 @@ TL_COPASI TL_STRENDA TL_BioCatNet </description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>http://EnzymeML.org/documents/publications/</link>
-      <pubDate>Mon, 09 Nov 2020 17:01:34 +0700</pubDate>
-      
-      <guid>http://EnzymeML.org/documents/publications/</guid>
-      <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. https://doi.org/10.1002/cite.202055297
-Range, J., Halupczok, C., Lohmann, J., Swainston, N., Kettner, C., Bergmann, F.T., Weidemann, A., Wittig, U., Schnell, S. and Pleiss, J. (2022), EnzymeML—a data exchange format for biocatalysis and enzymology.</description>
-    </item>
-    
-    <item>
       <title>Carsten Kettner</title>
       <link>http://EnzymeML.org/team/carsten-kettner/</link>
       <pubDate>Thu, 20 Dec 2018 13:45:06 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/carsten-kettner/</guid>
-      <description>STRENDA Commission Coordinator at the Beilstein-Institut, Frankfurt am Main, Germany.</description>
-    </item>
-    
-    <item>
-      <title>Hannah Dienhart</title>
-      <link>http://EnzymeML.org/team/hannah-dienhart/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/hannah-dienhart/</guid>
-      <description></description>
+      <description>STRENDA Commission Coordinator, Beilstein-Institut, Germany.</description>
     </item>
     
     <item>
@@ -217,16 +205,7 @@ Range, J., Halupczok, C., Lohmann, J., Swainston, N., Kettner, C., Bergmann, F.T
       <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/jan-range/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simone Lauterbach</title>
-      <link>http://EnzymeML.org/team/simone-lauterbach/</link>
-      <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
-      
-      <guid>http://EnzymeML.org/team/simone-lauterbach/</guid>
-      <description></description>
+      <description>Research Software Engineer, Cluster Of Excellence &amp;ldquo;SimTech&amp;rdquo;, University of Stuttgart, Germany</description>
     </item>
     
     <item>
@@ -235,7 +214,7 @@ Range, J., Halupczok, C., Lohmann, J., Swainston, N., Kettner, C., Bergmann, F.T
       <pubDate>Thu, 20 Dec 2018 13:44:55 +1000</pubDate>
       
       <guid>http://EnzymeML.org/team/stephan-malzacher/</guid>
-      <description></description>
+      <description>Research Software Engineer, Institute of Bio- and Geosciences, Foschungszentrum Jülich, Germany</description>
     </item>
     
     <item>

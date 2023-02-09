@@ -13,33 +13,38 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.17453f253b7b2a32ce1e0ef6aaeb8df077074ce5736dfbc3c879947f0aa23b35.css">
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
   
 
   
 
 </head>
 
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
 <body class='page page-default-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
-        <span>News</span>
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about">
       <a href="/services/">
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        <span>Team</span>
       </a>
     </li>
     
@@ -52,6 +57,12 @@
     <li class="menu-item-tools">
       <a href="/tools/">
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
       </a>
     </li>
     
@@ -67,7 +78,7 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://EnzymeML.org/"><img height=72px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
@@ -76,10 +87,10 @@
   <ul>
     
     
-    <li class="menu-item-news">
-      <a href="/news/">
+    <li class="menu-item-home">
+      <a href="/">
         
-        <span>News</span>
+        <span>Home</span>
       </a>
     </li>
     
@@ -87,13 +98,6 @@
       <a href="/services/">
         
         <span>About</span>
-      </a>
-    </li>
-    
-    <li class="menu-item-team">
-      <a href="/team/">
-        
-        <span>Team</span>
       </a>
     </li>
     
@@ -108,6 +112,13 @@
       <a href="/tools/">
         
         <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
       </a>
     </li>
     
@@ -141,7 +152,7 @@
 <p><a href="https://www.beilstein-strenda-db.org/strenda/index.xhtml">STRENDA DB</a> is a comprehensive database on enzyme-catalyzed reactions, which includes information on reaction conditions and kinetic parameters. The <a href="/documents/api">EnzymeML API</a> can be used to create an <strong>EnzymeML</strong> document from a STRENDA DB entry via a STRENDA DB-specific thin API layer <a href="https://github.com/EnzymeML/PyEnzyme/blob/main/pyenzyme/Examples/ThinLayers/TL_Strenda.py">TL_STRENDA</a> to the object layer using the <a href="https://github.com/EnzymeML/PyEnzyme/tree/main">PyEnzyme</a> library.</p>
 <p>To illustrate how to create EnzymeML documents from STRENDA DB entries, you can take STRENDA DB entry <a href="https://github.com/EnzymeML/PyEnzyme/blob/main/pyenzyme/Resources/Examples/ThinLayers/STRENDA/Generated/3IZNOK_TEST/3IZNOK_TEST.omex">3IZNOK</a> containing information on kinetic studies of the tryptophan biosynthesis using the TrpB2o enzyme from Arabidopsis thaliana. By running the thin API layer, it will map each object in the STRENDA DB to an EnzymeML object. The backend code takes care of validating data types. After successful mapping and validation, the API object layer is then written to an <a href="https://github.com/EnzymeML/PyEnzyme/blob/main/pyenzyme/Resources/Examples/ThinLayers/STRENDA/3IZNOK_TEST.xml">EnzymeML document</a>. Kinetic modeling of EnzymeML data by COPASI</p>
 <p><a href="http://copasi.org/">COPASI</a> is a modeling and simulation environment. Using the <a href="https://github.com/EnzymeML/PyEnzyme/tree/main">PyEnzyme</a> library and a COPASI-specific thin API layer, <a href="https://github.com/EnzymeML/PyEnzyme/blob/main/pyenzyme/Examples/ThinLayers/TL_COPASI.py">TL_COPASI</a>, the time course data (measured concentrations of substrate or product) can be loaded into COPASI. Within COPASI, different kinetic laws can be applied, kinetic parameters are estimated, and plots are generated to assess the result. The selected kinetic model and the estimated kinetic parameters can then be added to the <strong>EnzymeML</strong> document.</p>
-<p>To illustrate the above application, we generated time course data from STRENDA DB entry 3IZNOK and imported it to COPASI. The data was then simulated by applying the Michaelis-Menten model equation and the kinetic parameters (k<!-- raw HTML omitted -->cat<!-- raw HTML omitted --> = 0.015 s-1, K<!-- raw HTML omitted -->M<!-- raw HTML omitted --> = 0.01  mM) over a time interval of 200 seconds.  First, the time course data of each replicate was exported via the <em>exportReplicates</em>-function, inherited by every reaction object, to a Pandas DataFrame. Next, the dataframe was saved to a tab-separated file and columns were defined via the <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST/COPASI">COPASI API</a>. In this way, COPASI can map every dataset to their respective reactants. The <strong>EnzymeML</strong> document was then written to a string and parsed together with the TSV file by the COPASI API for modeling. As a result, both estimated Michaelis-Menten kinetic parameters v<!-- raw HTML omitted -->max<!-- raw HTML omitted --> = 0.149 µM and K<!-- raw HTML omitted -->M<!-- raw HTML omitted --> = 0.0099 mM as well as the equation were instantiated by the KineticModel class and written to the <strong>EnzymeML</strong> document via the reactions setModel method. Finally, the <strong>EnzymeML</strong> document was written into a <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST">file</a>](<a href="https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST)">https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST)</a>. It should be noted, that alongside the programmatic parameter estimation, a .cps file was created to be used within the COPASI GUI. Hence, a broad spectrum of models could be used to describe the kinetics as well.</p>
+<p>To illustrate the above application, we generated time course data from STRENDA DB entry 3IZNOK and imported it to COPASI. The data was then simulated by applying the Michaelis-Menten model equation and the kinetic parameters (k<!-- raw HTML omitted -->cat<!-- raw HTML omitted --> = 0.015 s-1, K<!-- raw HTML omitted -->M<!-- raw HTML omitted --> = 0.01  mM) over a time interval of 200 seconds.  First, the time course data of each replicate was exported via the <em>exportReplicates</em>-function, inherited by every reaction object, to a Pandas DataFrame. Next, the dataframe was saved to a tab-separated file and columns were defined via the <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST/COPASI">COPASI API</a>. In this way, COPASI can map every dataset to their respective reactants. The <strong>EnzymeML</strong> document was then written to a string and parsed together with the TSV file by the COPASI API for modeling. As a result, both estimated Michaelis-Menten kinetic parameters v<!-- raw HTML omitted -->max<!-- raw HTML omitted --> = 0.149 µM and K<!-- raw HTML omitted -->M<!-- raw HTML omitted --> = 0.0099 mM as well as the equation were instantiated by the KineticModel class and written to the <strong>EnzymeML</strong> document via the reactions setModel method. Finally, the <strong>EnzymeML</strong> document was written into a <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/pyenzyme/Resources/Examples/ThinLayers/COPASI/3IZNOK_TEST">file</a>. It should be noted, that alongside the programmatic parameter estimation, a .cps file was created to be used within the COPASI GUI. Hence, a broad spectrum of models could be used to describe the kinetics as well.</p>
 </div>
     </div>
   </div>

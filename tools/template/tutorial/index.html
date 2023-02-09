@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Tutorial and Documentation - EnzymeML Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type="image/png" href="/favicon-32x32.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
+  
+
+  
+
+</head>
+
+<script>
+  var test = document.getElementById('partners-container');
+  console.log("hsjhsjshjsh")
+  window.addEventListener('scroll', function(e) {
+    
+    var scroll = window.pageYOffset || document.documentElement.scrollTop ||
+                  document.body.scrollTop || 0;
+    test.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+  });
+</script>
+
+<body class='page page-services-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="/services/">
+        <span>About</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documents">
+      <a href="/documents/">
+        <span>Documents</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tools">
+      <a href="/tools/">
+        <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        <span>Team</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="/contact/">
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="http://EnzymeML.org/"><img height=50px alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml.jpg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="http://EnzymeML.org/"><img alt="EnzymeML - A Markup Languange for Catalysis" src="/images/logo/enzymeml-mobile.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="/services/">
+        
+        <span>About</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documents">
+      <a href="/documents/">
+        
+        <span>Documents</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tools">
+      <a href="/tools/">
+        
+        <span>Tools</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-team">
+      <a href="/team/">
+        
+        <span>Team</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-contact">
+      <a href="/contact/">
+        
+        <span>Contact</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Tutorial and Documentation</h1>
+        <div class="content"><p>This document will further explain the workflow and how to use the spreadsheet by giving best practices. For this, the next paragraph will further elucidate how to acquire the template, how to fill in data and finally how to convert it to EnzymeML.</p>
+<h2 id="1-download-the-enzymeml-template">1. Download the EnzymeML template</h2>
+<p>The EnzymeML template can be downloaded <a href="https://enzymeml.sloppy.zone/download">here</a>. Additionally, an <a href="https://github.com/EnzymeML/PyEnzyme/raw/main/templates/EnzymeML_Template_Example.xlsm">example template</a> is provided which demonstrates how a template should be filled.</p>
+<p>Once downloaded, you can open the template with any commonly available spreadsheet application such as Microsoft Excel™ or OpenOffice Calc.</p>
+<p><em>Please note that this spreadsheet uses macros to ensure a pleasant and easy workflow. Thus it is necessary to enable these when opened with an application. Otherwise, conversion is not guaranteed.</em></p>
+<h2 id="2-entering-data">2. Entering data</h2>
+<p>The EnzymeML template involves multiple sheets which correspond to parts that make up the EnzymeML data model. In the following, the structure will briefly be broken down and explained.</p>
+<figure><img src="overview.png"/>
+</figure>
+
+<p><em>You can always review what kind of content a given column or row is expecting. By clicking the name you will see a pop-up that explains the content.</em></p>
+<figure><img src="info_popups.png" width="250"/>
+</figure>
+
+<h3 id="general-information">General Information</h3>
+<p>This sheet includes information about the dataset, such as title and authors as well as links to related information. If given, a DOI and PubMed ID can also be added here.</p>
+<h3 id="vessels">Vessels</h3>
+<p>Here you can define the vessels that were used in course of your experiment. It is possible to add multiple vessels. There is a dropdown cell for the <strong>volume unit</strong> from which you can choose the appropriate unit. Each vessel will receive a unique ID which later on will be referenced by other sheets (more on that later).</p>
+<h3 id="reactants--proteins">Reactants / Proteins</h3>
+<p>Both sheets &lsquo;Reactants&rsquo; and &lsquo;Proteins&rsquo; allow you to describe the substances you have used in your experiment. It should be noted that <strong>green</strong> columns are mandatory and must be filled for a successful conversion, while <strong>yellow</strong> ones are optional.</p>
+<p>In the case of a <em>vessel</em>, it is important to make use of the given dropdown feature, which lists all the vessels previously defined. Here you can specify in which vessel the substance has been added. The same applies to the <em>constant</em> column which lets you choose from two values. Others are not valid and will result in a conversion error.</p>
+<h3 id="reactions">Reactions</h3>
+<p>To define a reaction you can enter conditions and reference the participating substances and enzymes. Conditions are entered similarly as in the previous sheets. Please also note that columns <strong>temperature unit</strong> and <strong>reversible</strong> are dropdown fields.</p>
+<p>Educts, Products, Enzymes and Modifiers are entered via a dropdown menu, which allows you to select multiple entries. Simply choose an entry and click on it, which will be added to the cell. Repeat the step until all necessary reaction elements are entered. See the following image for a valid example.</p>
+<figure><img src="reaction_entering.png" width="700"/>
+</figure>
+
+<h3 id="data">Data</h3>
+<p>The data sheet combines metadata and time-course data of your experiment. Here you can enter multiple experiment runs, their corresponding initial concentrations and the measured data. Different experiments can be organized by making use of <em>Experiment IDs</em> with which you refer to a certain run.</p>
+<p>For the sake of demonstration, let&rsquo;s assume we have set up two experiments, where we alter the substrate (pyruvate) concentration. First, let&rsquo;s document the first run, with the following specifications:</p>
+<h4 id="experiment-id-1">Experiment ID: &ldquo;1&rdquo;</h4>
+<ul>
+<li><strong>Time column</strong>
+<ul>
+<li>Type: Time[sec]</li>
+<li>Scope: 0-540 seconds</li>
+</ul>
+</li>
+<li><strong>Pyruvate</strong>
+<ul>
+<li>Type: Concentration</li>
+<li>Initial concentration: 100 mmole / l</li>
+</ul>
+</li>
+<li><strong>CO2</strong>
+<ul>
+<li>Type Concentration</li>
+<li>Initial concentration: 0 mmole / l</li>
+</ul>
+</li>
+<li><strong>Acetaldehyde</strong>
+<ul>
+<li>Type: Concentration</li>
+<li>Initial concentration: 0 mmole / l)</li>
+</ul>
+</li>
+</ul>
+<figure><img src="data_metadata.png" width="1000"/>
+</figure>
+
+<p>Please note, that a <strong>time column</strong> is mandatory and conversion will fail if it is missing. As shown in the example, the time column does not have to include any concentration metadata. Furthermore, protein initial concentrations need to be included in all other rows than time.</p>
+<figure><img src="data_rawdata.png" width="1000"/>
+</figure>
+
+<p>Measurement data can now be entered in the blue columns to the right. These are expected to be entered <strong>horizontally</strong> as shown in the above figure. Entering values is not mandatory and can be left out if no measurements have been done.</p>
+<figure><img src="experiment_two.png" width="1000"/>
+</figure>
+
+<p>The process is repeated with all other experiments, which are distinguished by different Experiment IDs. It is important to note, that each experiment can not have multiples of a substance. Hence, if you are documenting replicates, please add these as other experiments.</p>
+<h3 id="kinetic-models">Kinetic Models</h3>
+<p>Finally, when all data has been entered, you can now specify kinetic models for modeling. This is done by first specifying the reaction that is modeled using the dropdown. In the next step, you can enter the mathematical equation corresponding to the model as well as the substances involved. Lastly, you can enter estimated parameters in the optional yellow columns.</p>
+<figure><img src="models.png" width="1200"/>
+</figure>
+
+<p>Please note that it is best practice to use <strong>IDs rather than names</strong> when defining an equation. For this, a table on the right-hand side lists all IDs present.</p>
+<h2 id="3-convert-the-template-to-enzymeml">3. Convert the template to EnzymeML</h2>
+<p>Once you&rsquo;ve entered all relevant data, the template can be converted to EnzymeML by uploading it to the <a href="/tools/template">EnzymeML Template conversion page</a>. When submitted, you will receive an OMEX archive that can now be used for a variety of workflows such as modeling, publication or visualization.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h3 class="footer-title">EnzymeML Project</h3>
+          <ul>
+            
+            
+            <li class="menu-item-home">
+              <a href="/">
+                Home
+              </a>
+            </li>
+            
+            <li class="menu-item-contact">
+              <a href="/contact/">
+                Contact
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            
+<div class="social">
+    
+        <a href="https://github.com/EnzymeML" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
+    
+        <a href="https://twitter.com/EnzymeML" target="blank"><img src="/images/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
+    
+</div>
+
+          
+          
+            <div class="copyright">Copyright by <a class="EnzymeML" href="/team">EnzymeML Team</a></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+
+
+
+
+  <script type="text/javascript" src="/js/services.min.9107b65a7df0422d8a274963e6b560062a6cdf62185570cfd584b43defa67279.js"></script>
+  
+
+
+  
+  <script type="text/javascript" src="/js/scripts.min.8504133605a277da18f0d58cfd2e90d154962f4a961543a6e2f0a459a2d05462.js"></script>
+  
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+
+</html>
