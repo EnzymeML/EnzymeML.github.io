@@ -13,7 +13,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
+  <link rel="stylesheet" href="/css/style.min.706305fb9ff2075245ad2946c1c0f6c2312c6d1040be7392c2c2e5b078fe5dc9.css">
   
 
   
@@ -145,11 +145,10 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For Software Developers</h1>
-        <div class="content"><p>Want to implement <strong>EnzymeML</strong> read and write functionalities in your software? Here you have some ideas to inspire your team.</p>
-<h2 id="enzymeml-documents">EnzymeML documents</h2>
-<p><strong>EnzymeML</strong> follows the Standards of Reporting Enzymology Data (STRENDA) <a href="https://www.beilstein-institut.de/en/projects/strenda/guidelines/">Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. <strong>EnzymeML</strong> is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/xsd">here</a>). The measured time course of substrate or product concentrations is stored in a comma-separated value (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a></p>
+        <div class="single content"><h2 id="want-to-implement-enzymeml-read-and-write-functionalities-in-your-software-here-you-have-some-ideas-to-inspire-your-team">Want to implement EnzymeML read and write functionalities in your software? Here you have some ideas to inspire your team.</h2>
+<p>EnzymeML follows the Standards of Reporting Enzymology Data (STRENDA) <a href="https://www.beilstein-institut.de/en/projects/strenda/guidelines/">Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML). It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters (find the XML schema definition <a href="https://github.com/EnzymeML/PyEnzyme/tree/main/xsd">here</a>). The measured time course of substrate or product concentrations is stored in a comma-separated value (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a></p>
 <h2 id="application-programming-interface-api">Application Programming Interface (API)</h2>
-<p>You can implement <strong>EnzymeML</strong> read and write functionalities into your software application (electronic lab notebooks, laboratory information management systems, modeling platforms, or database) by using the EnzymeML Application Programming Interface (API), either as a python library to be implemented locally with your software, as a RESTful API to be implemented locally or via a RESTful API installed on our web server.</p>
+<p>You can implement EnzymeML read and write functionalities into your software application (electronic lab notebooks, laboratory information management systems, modeling platforms, or database) by using the EnzymeML Application Programming Interface (API), either as a python library to be implemented locally with your software, as a RESTful API to be implemented locally or via a RESTful API installed on our web server.</p>
 <h2 id="how-to-interact-with-the-api">How to interact with the API</h2>
 <p>We start with an EnzymeML document which contains the experimental conditions (protein sequence of the enzyme, enzyme concentration, temperature, initial substrate concentration, and time course of the substrate). The goal is to read the time course data in a modeling tool, estimate kinetic parameters, and add the kinetic parameters and the selected kinetic model to the EnzymeML document</p>
 <ol>
@@ -160,7 +159,7 @@
 <li>The API inserts the selected model and estimated parameters into the EnzymeML documents and sends them back</li>
 </ol>
 <p>As a result, the EnzymeML document does not only contain the experimentally measured data, but also the model and the estimated kinetic parameters. One experimental dataset might be modeled by many different kinetic models, therefore the EnzymeML document might contain different kinetic models and the respective parameters together with a single experimental dataset.</p>
-<h3 id="resources">Resources</h3>
+<h2 id="resources">Resources</h2>
 <ul>
 <li>Download the python library from the <a href="https://github.com/EnzymeML/PyEnzyme/">EnzymeML Github</a></li>
 <li>The RESTful API is packaged within <a href="https://www.docker.com/">DOCKER</a> to facilitate a local installation - To integrate our API <a href="https://hub.docker.com/r/enzymeml/pyenzyme">download</a> our docker image and use our <a href="https://enzymeml.sloppy.zone/">documentation</a>.</li>

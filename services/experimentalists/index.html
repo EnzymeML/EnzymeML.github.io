@@ -13,7 +13,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/style.min.81a24129e4f4eb8d9eed71c2049a62066326f7275b7f8d6a20269982c32de44f.css">
+  <link rel="stylesheet" href="/css/style.min.706305fb9ff2075245ad2946c1c0f6c2312c6d1040be7392c2c2e5b078fe5dc9.css">
   
 
   
@@ -145,12 +145,12 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">For Experimentalists</h1>
-        <div class="content"><p>How can EnzymeML help you to manage your experimental data?</p>
+        <div class="single content"><h2 id="how-can-enzymeml-help-you-to-manage-your-experimental-data">How can EnzymeML help you to manage your experimental data?</h2>
 <p>EnzymeML was developed to support data acquisition, data analysis, and sharing of data by providing a standardized exchange format for enzymatic data. EnzymeML follows the <a href="https://www.beilstein-institut.de/projekte/strenda/">Standards of Reporting Enzymology Data (STRENDA) Guidelines</a>, a comprehensive set of metadata describing reaction conditions and kinetic models. EnzymeML is written in eXtensible Markup Language (XML).</p>
 <p>It builds on the well-established Systems Biology Markup Language (<a href="http://sbml.org/">SBML</a>) and includes information about the enzyme, the substrate(s) and product(s), the reaction conditions, the selected kinetic model, and estimated kinetic parameters. The measured time course of substrate or product concentrations is stored in a comma-separated value (CSV) formatted file. The XML- and the CSV file are combined into a single EnzymeML document using the widely-used <a href="http://co.mbine.org/specifications/omex.version-1.pdf">OMEX format</a>.</p>
 <p>The typical user is not expected to read or write EnzymeML documents directly, but to use software to generate EnzymeML documents, which are then used as a standardized exchange format to transfer data between applications. Therefore, an Application Programming Interface (API) was developed to read, write, and edit EnzymeML documents.</p>
 <p>The API is a Python library (<a href="https://github.com/EnzymeML/PyEnzyme">PyEnzyme on GitHub</a>), which can be installed locally or can be accessed as a RESTful Web service. This Web service can be used by any application such as an electronic laboratory notebook (ELN), a modeling platform, or a specialized database to read or write EnzymeML documents. Upon reading, writing, and editing EnzymeML documents, the API controls data completeness and consistency, such as checking that scalar properties such as pH are within a given range. Additional validation tools control compatibility with SBML or with minimum requirements of applications such as STRENDA DB, SABIO-RK, or COPASI.</p>
-<h3 id="why-manage-experimental-data-with-enzymeml">Why manage experimental data with EnzymeML?</h3>
+<h2 id="why-manage-experimental-data-with-enzymeml">Why manage experimental data with EnzymeML?</h2>
 <ol>
 <li>Measured time course data on substrate and/or product concentrations are saved in the same document with metadata about the enzyme and the reaction conditions. This facilitates the replicability and reproducibility of experimental assays.</li>
 <li>EnzymeML documents are standardized, so their format is independent of the experimental scientist. Documents are machine- and human-readable. Markup languages (ML) are specifically designed for machines, and therefore they are not optimal for user reading. EnzymeML follows internationally recognized standards (<a href="http://sbml.org/">SBML</a>, <a href="https://www.w3.org/Math/">MathML</a>). An application programming interface (API) allows for the easy integration of applications for data visualization and modeling.</li>
