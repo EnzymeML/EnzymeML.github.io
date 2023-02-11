@@ -6,7 +6,11 @@
     <description>Recent content in Home on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Sep 2022 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 17:01:34 +0700</lastBuildDate>
+    
+	<atom:link href="http://EnzymeML.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>PyEnzyme</title>
       <link>http://EnzymeML.org/tools/pyenzyme/</link>
@@ -24,8 +28,8 @@ The API uses the SBML syntax and naming conventions which are familiar to enzymo
       
       <guid>http://EnzymeML.org/documents/publications/</guid>
       <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. doi: 10.1002/cite.202055297
-Pleiss, J. Standardized data, Scalable Documentation, sustainable storage – Enzymeml as a basis for fair data management in biocatalysis. ChemCatChem 13, 3909–3913 (2021). doi: 10.</description>
+Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. doi: 10.1002/cite.202055297
+  Pleiss, J. Standardized data, Scalable Documentation, sustainable storage – Enzymeml as a basis for fair data management in biocatalysis. ChemCatChem 13, 3909–3913 (2021).</description>
     </item>
     
     <item>
@@ -45,7 +49,7 @@ Pleiss, J. Standardized data, Scalable Documentation, sustainable storage – En
       <guid>http://EnzymeML.org/downloads/api/</guid>
       <description>An application programming interface (API) the Python library PyEnzyme, and the Java library JEnzyme, which support reading, writing, editing, merging, and visualization of EnzymeML documents.
 Presently, we have three application-specific thin API layers COPASI, STRENDA DB and SABIO-RK. They are available to download in the links below:
-TL_COPASI TL_STRENDA TL_BioCatNet </description>
+ TL_COPASI TL_STRENDA TL_BioCatNet  </description>
     </item>
     
     <item>
@@ -183,7 +187,7 @@ COPASI COPASI is a software application for the simulation and analysis of bioch
       <guid>http://EnzymeML.org/downloads/validators/</guid>
       <description>EnzymeML has a specific validation tool that guarantees compatibility with SBML. Further application-specific validation tools have been added, such as a STRENDA DB validator to check for compatibility with the STRENDA Guidelines.
 The validators are part of application-specific thin API layers COPASI, STRENDA DB andSABIO-RK. They are available to download in the links below:
-TL_COPASI TL_STRENDA TL_BioCatNet </description>
+ TL_COPASI TL_STRENDA TL_BioCatNet  </description>
     </item>
     
     <item>
