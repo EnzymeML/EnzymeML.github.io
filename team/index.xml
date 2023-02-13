@@ -6,11 +6,7 @@
     <description>Recent content in Team on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2020 10:47:58 +1000</lastBuildDate>
-    
-	<atom:link href="http://EnzymeML.org/team/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 08 Oct 2020 10:47:58 +1000</lastBuildDate><atom:link href="http://EnzymeML.org/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Juergen Pleiss</title>
       <link>http://EnzymeML.org/team/juergen-pleiss/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in Documents on EnzymeML Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate>
-    
-	<atom:link href="http://EnzymeML.org/documents/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Nov 2020 17:01:34 +0700</lastBuildDate><atom:link href="http://EnzymeML.org/documents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>http://EnzymeML.org/documents/publications/</link>
@@ -18,8 +14,8 @@
       
       <guid>http://EnzymeML.org/documents/publications/</guid>
       <description>This section lists preprints and published work describing EnzymeML and core EnzymeML-supporting software tools.
-Original Peer Review Papers   Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. doi: 10.1002/cite.202055297
-  Pleiss, J. Standardized data, Scalable Documentation, sustainable storage – Enzymeml as a basis for fair data management in biocatalysis. ChemCatChem 13, 3909–3913 (2021).</description>
+Original Peer Review Papers Malzacher S, Range J, Halupczok C, Pleiss J, Rother D (2020). BioCatHub, a graphical user interface for standardized data acquisition in biocatalysis. Chemie Ingenieur Technik 92, 1251-1251. doi: 10.1002/cite.202055297
+Pleiss, J. Standardized data, Scalable Documentation, sustainable storage – Enzymeml as a basis for fair data management in biocatalysis. ChemCatChem 13, 3909–3913 (2021). doi: 10.</description>
     </item>
     
     <item>
